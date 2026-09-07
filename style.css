@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#071421;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+    overflow:hidden;
+}
+
+.header{
+    text-align:center;
+    padding:30px 20px;
+}
+
+.header h1{
+    font-size:58px;
+    letter-spacing:2px;
+    margin-bottom:10px;
+}
+
+#clock{
+    font-size:36px;
+    color:#7edfff;
+}
+
+.section{
+    flex:1;
+    padding:15px 25px;
+}
+
+.section h2{
+    font-size:34px;
+    margin-bottom:8px;
+    color:#7edfff;
+}
+
+.timeslot{
+    font-size:28px;
+    margin-bottom:12px;
+    font-weight:bold;
+}
+
+.lanes{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:8px;
+}
+
+.lane{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:12px 18px;
+
+    border-radius:12px;
+
+    font-size:28px;
+}
+
+.lane-number{
+    font-weight:bold;
+}
+
+.clients{
+    background:#177d1f;
+}
+
+.coach{
+    background:#6a3db4;
+}
+
+.group{
+    background:#d97706;
+}
+
+.club{
+    background:#1463c0;
+}
+
+.footer{
+    text-align:center;
+    padding:12px;
+    color:#bfc9d4;
+    font-size:18px;
+}
