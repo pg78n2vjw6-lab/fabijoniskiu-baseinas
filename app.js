@@ -143,47 +143,53 @@ function render() {
         findCurrentIndex(dayData);
 
     const previous =
-    dayData[currentIndex - 1];
+    currentIndex > 0
+        ? dayData[currentIndex - 1]
+        : null;
 
     const current =
     dayData[currentIndex];
 
     const next =
-    dayData[currentIndex + 1];
+    currentIndex < dayData.length - 1
+        ? dayData[currentIndex + 1]
+        : null;
 
-    if(current){
+    if(previous){
 
-        document.getElementById(
-            "currentTimeSlot"
-        ).textContent = current.time;
+ document.getElementById(
+   "previousTimeSlot"
+ ).textContent = previous.time;
 
-        renderLanes(
-            "currentLanes",
-            current.lanes
-        );
-    }
+ renderLanes(
+   "previousLanes",
+   previous.lanes
+ );
+}
 
-    if(next){
+if(current){
 
-        document.getElementById(
-            "nextTimeSlot"
-        ).textContent = next.time;
+ document.getElementById(
+   "currentTimeSlot"
+ ).textContent = current.time;
 
-        renderLanes(
-            "nextLanes",
-            next.lanes
-        );
-    }
+ renderLanes(
+   "currentLanes",
+   current.lanes
+ );
+}
 
-    if(future){
+if(next){
 
-        document.getElementById(
-            "futureTimeSlot"
-        ).textContent = future.time;
+ document.getElementById(
+   "nextTimeSlot"
+ ).textContent = next.time;
 
-        renderLanes(
-            "futureLanes",
-            future.lanes
+ renderLanes(
+   "nextLanes",
+   next.lanes
+ );
+}
         );
     }
 
