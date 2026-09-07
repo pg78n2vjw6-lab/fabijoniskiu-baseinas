@@ -142,14 +142,14 @@ function render() {
     const currentIndex =
         findCurrentIndex(dayData);
 
+    const previous =
+    dayData[currentIndex - 1];
+
     const current =
-        dayData[currentIndex];
+    dayData[currentIndex];
 
     const next =
-        dayData[currentIndex + 1];
-
-    const future =
-        dayData[currentIndex + 2];
+    dayData[currentIndex + 1];
 
     if(current){
 
