@@ -1,46 +1,47 @@
 {
-  "updated": "2026-09-04 15:00",
+  "updated": "2026-09-07 16:30",
   "schedule": {
     "Pirmadienis": [
       {
-        "time": "16:30-17:15",
+        "time": "14:15-15:00",
         "lanes": [
-          { "lane": 1, "value": "KLIENTAI" },
-          { "lane": 2, "value": "KLIENTAI" },
-          { "lane": 3, "value": "KLIENTAI" },
-          { "lane": 4, "value": "KLIENTAI" },
-          { "lane": 5, "value": "Gražina BR" },
-          { "lane": 6, "value": "AZ SR-A" },
-          { "lane": 7, "value": "Valia BR" },
-          { "lane": 8, "value": "SSC FAG V" }
+          {"lane":1,"value":"KLIENTAI"},
+          {"lane":2,"value":"KLIENTAI"},
+          {"lane":3,"value":"KLIENTAI"},
+          {"lane":4,"value":"KLIENTAI"},
+          {"lane":5,"value":"KLIENTAI"},
+          {"lane":6,"value":"Gražina BR"},
+          {"lane":7,"value":"Valia BR"},
+          {"lane":8,"value":"SSC FAG V"}
         ]
       },
       {
-        "time": "17:15-18:00",
+        "time": "15:00-15:45",
         "lanes": [
-          { "lane": 1, "value": "KLIENTAI" },
-          { "lane": 2, "value": "KLIENTAI" },
-          { "lane": 3, "value": "KLIENTAI" },
-          { "lane": 4, "value": "KLIENTAI" },
-          { "lane": 5, "value": "Gražina BR" },
-          { "lane": 6, "value": "AZ SR-A" },
-          { "lane": 7, "value": "Valia BR" },
-          { "lane": 8, "value": "SSC FAG V" }
+          {"lane":1,"value":"KLIENTAI"},
+          {"lane":2,"value":"KLIENTAI"},
+          {"lane":3,"value":"KLIENTAI"},
+          {"lane":4,"value":"KLIENTAI"},
+          {"lane":5,"value":"Gražina SR-C"},
+          {"lane":6,"value":"AZ SR-B"},
+          {"lane":7,"value":"Valia BR"},
+          {"lane":8,"value":"SSC FAG V"}
         ]
       },
       {
-        "time": "18:00-18:45",
+        "time": "15:45-16:30",
         "lanes": [
-          { "lane": 1, "value": "KLIENTAI" },
-          { "lane": 2, "value": "KLIENTAI" },
-          { "lane": 3, "value": "KLIENTAI" },
-          { "lane": 4, "value": "KLIENTAI" },
-          { "lane": 5, "value": "Povilas ŠP" },
-          { "lane": 6, "value": "Valia BR" },
-          { "lane": 7, "value": "Tadas" },
-          { "lane": 8, "value": "SSC FAG V" }
+          {"lane":1,"value":"KLIENTAI"},
+          {"lane":2,"value":"KLIENTAI"},
+          {"lane":3,"value":"KLIENTAI"},
+          {"lane":4,"value":"KLIENTAI"},
+          {"lane":5,"value":"Gražina SR-C"},
+          {"lane":6,"value":"AZ SR-B"},
+          {"lane":7,"value":"Valia BR"},
+          {"lane":8,"value":"SSC FAG V"}
         ]
       }
     ]
   }
 }
+``
