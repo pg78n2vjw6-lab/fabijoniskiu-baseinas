@@ -68,30 +68,34 @@ function minutesNow() {
     return now.getHours() * 60 + now.getMinutes();
 }
 
-function findCurrentIndex(slots) {
+function findCurrentIndex(slots){
 
     const now = minutesNow();
 
-    for (let i = 0; i < slots.length; i++) {
+    for(let i=0;i<slots.length;i++){
 
-        const [start, end] =
+        const [start,end] =
             slots[i].time.split("-");
 
-        const [sh, sm] =
+        const [sh,sm] =
             start.split(":").map(Number);
 
-        const [eh, em] =
+        const [eh,em] =
             end.split(":").map(Number);
 
         const startMin = sh * 60 + sm;
         const endMin = eh * 60 + em;
 
-        if (now >= startMin && now < endMin) {
+        if(now >= startMin && now < endMin){
             return i;
         }
     }
 
-    return 0;
+    if(now < 360){
+        return 0;
+    }
+
+    return slots.length - 1;
 }
 
 function renderLanes(elementId, lanes) {
