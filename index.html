@@ -1,55 +1,43 @@
 <!DOCTYPE html>
 <html lang="lt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fabijoniškių Baseinas</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fabijoniškių Baseinas</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>FABIJONIŠKIŲ BASEINAS</h1>
-    <div id="clock"></div>
+<h1>FABIJONIŠKIŲ BASEINAS</h1>
+<div id="clock"></div>
 </header>
 
 <div class="container">
 
-    <section>
-        <div class="section-title previous">
-            PRAĖJĘS
-        </div>
+<section>
+<div class="section-title previous">PRAĖJĘS</div>
+<div id="previousTimeSlot" class="slotTime">-</div>
+<div id="previousLanes"></div>
+</section>
 
-        <div id="previousTimeSlot" class="slotTime">-</div>
+<section>
+<div class="section-title current">DABAR</div>
+<div id="currentTimeSlot" class="slotTime">-</div>
+<div id="currentLanes"></div>
+</section>
 
-        <div id="previousLanes"></div>
-    </section>
-
-    <section>
-        <div class="section-title current">
-            DABAR
-        </div>
-
-        <div id="currentTimeSlot" class="slotTime">-</div>
-
-        <div id="currentLanes"></div>
-    </section>
-
-    <section>
-        <div class="section-title next">
-            KITAS
-        </div>
-
-        <div id="nextTimeSlot" class="slotTime">-</div>
-
-        <div id="nextLanes"></div>
-    </section>
+<section>
+<div class="section-title next">KITAS</div>
+<div id="nextTimeSlot" class="slotTime">-</div>
+<div id="nextLanes"></div>
+</section>
 
 </div>
 
 <footer>
-    Duomenys atnaujinti:
-    <span id="updated">-</span>
+Duomenys atnaujinti:
+<span id="updated">-</span>
 </footer>
 
 <script src="app.js"></script>
