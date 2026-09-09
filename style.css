@@ -26,6 +26,51 @@ h1{
     color:#9fd8ff;
 }
 
+/* LEGENDA */
+
+.legend{
+
+    margin-top:14px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:24px;
+
+    flex-wrap:wrap;
+}
+
+.legend-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-size:18px;
+}
+
+.legend-box{
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:4px;
+}
+
+.legend-box.clients{
+    background:#1e8f3f;
+}
+
+.legend-box.busy{
+    background:#e57e25;
+}
+
+/* PAGRINDINIAI BLOKAI */
+
 .container{
 
     display:flex;
@@ -59,11 +104,11 @@ section{
 }
 
 .previous{
-    color:#bfc7cf;
+    color:#c4cbd2;
 }
 
 .current{
-    color:#61ff84;
+    color:#5fff83;
 }
 
 .next{
@@ -81,12 +126,36 @@ section{
     margin-bottom:10px;
 }
 
+/* LENTELĖS ANTRAŠTĖ */
+
+.table-header{
+
+    display:grid;
+
+    grid-template-columns:
+        120px 1fr;
+
+    margin-bottom:6px;
+
+    padding:8px 12px;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    color:#9fd8ff;
+
+    border-bottom:1px solid #2f4f6b;
+}
+
+/* TAKELIŲ EILUTĖS */
+
 .lane{
 
     display:grid;
 
     grid-template-columns:
-        110px 1fr;
+        120px 1fr;
 
     align-items:center;
 
@@ -94,16 +163,34 @@ section{
 
     border-radius:8px;
 
-    padding:8px 12px;
+    padding:10px 14px;
 
     font-size:20px;
 
     font-weight:600;
 }
 
+.lane:last-child{
+    margin-bottom:0;
+}
+
 .lane-number{
+
+    text-align:left;
+
     font-weight:700;
 }
+
+.lane span:last-child{
+
+    text-align:center;
+
+    font-size:22px;
+
+    font-weight:700;
+}
+
+/* SPALVOS */
 
 .clients{
 
@@ -116,6 +203,8 @@ section{
 
     background:#e57e25;
 }
+
+/* PORAŠTĖ */
 
 footer{
 
