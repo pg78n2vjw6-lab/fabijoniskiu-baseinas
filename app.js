@@ -15,7 +15,8 @@ function updateClock() {
     const now = new Date();
 
     document.getElementById("clock").textContent =
-        LT_DAYS[now.getDay()] + " " +
+        LT_DAYS[now.getDay()] +
+        " " +
         now.toLocaleTimeString(
             "lt-LT",
             {
@@ -23,6 +24,69 @@ function updateClock() {
                 minute: "2-digit"
             }
         );
+}
+
+function getCategory(value) {
+
+    value = value || "";
+
+    if (value === "KLIENTAI") {
+        return "clients";
+    }
+
+    if (
+        value.includes("SSC") ||
+        value.includes("LNSF") ||
+        value.includes("VVF") ||
+        value.includes("NEMUNAS") ||
+        value.includes("DELFINAS")
+    ) {
+        return "club";
+    }
+
+    if (
+        value.includes("BTT") ||
+        value.includes("ANTROKAI") ||
+        value.includes("TREČIOKAI") ||
+        value.includes("Vandens") ||
+        value.includes("MOKU")
+    ) {
+        return "group";
+    }
+
+    return "coach";
+}
+
+function renderLanes(containerId, lanes) {
+
+    const container =
+        document.getElementById(containerId);
+
+    if (!container) {
+        return;
+    }
+
+    container.innerHTML = "";
+
+    lanes.forEach(lane => {
+
+        const row =
+            document.createElement("div");
+
+        row.className =
+            "lane " +
+            getCategory(lane.value);
+
+        row.innerHTML =
+            `<span class="lane-number">
+                Takelis ${lane.lane}
+            </span>
+            <span>
+                ${lane.value}
+            </span>`;
+
+        container.appendChild(row);
+    });
 }
 
 function findCurrentIndex(slots) {
@@ -35,53 +99,36 @@ function findCurrentIndex(slots) {
 
     for (let i = 0; i < slots.length; i++) {
 
-        const [start,end] =
+        const parts =
             slots[i].time.split("-");
 
-        const [sh,sm] =
+        const start =
+            parts[0];
+
+        const end =
+            parts[1];
+
+        const [sh, sm] =
             start.split(":").map(Number);
 
-        const [eh,em] =
+        const [eh, em] =
             end.split(":").map(Number);
 
-        const startMin =
+        const from =
             sh * 60 + sm;
 
-        const endMin =
+        const to =
             eh * 60 + em;
 
         if (
-            currentMinutes >= startMin &&
-            currentMinutes < endMin
+            currentMinutes >= from &&
+            currentMinutes < to
         ) {
             return i;
         }
     }
 
     return 0;
-}
-
-function renderLanes(containerId, lanes) {
-
-    const container =
-        document.getElementById(containerId);
-
-    container.innerHTML = "";
-
-    lanes.forEach(lane => {
-
-        const row =
-            document.createElement("div");
-
-        row.className = "lane";
-
-        row.innerHTML =
-            `<span>Takelis ${lane.lane}</span>
-             <span>${lane.value}</span>`;
-
-        container.appendChild(row);
-
-    });
 }
 
 function render() {
@@ -100,106 +147,18 @@ function render() {
 
         document.getElementById("updated")
             .textContent =
-            "Nerasta diena";
+            "Nerasta diena: " +
+            dayName;
 
         return;
     }
 
-    const currentIndex =
+    const idx =
         findCurrentIndex(dayData);
 
     const previous =
-        currentIndex > 0
-            ? dayData[currentIndex - 1]
+        idx > 0
+            ? dayData[idx - 1]
             : null;
 
-    const current =
-        dayData[currentIndex];
-
-    const next =
-        currentIndex < dayData.length - 1
-            ? dayData[currentIndex + 1]
-            : null;
-
-    if (previous) {
-
-        document.getElementById(
-            "previousTimeSlot"
-        ).textContent =
-            previous.time;
-
-        renderLanes(
-            "previousLanes",
-            previous.lanes
-        );
-    }
-
-    if (current) {
-
-        document.getElementById(
-            "currentTimeSlot"
-        ).textContent =
-            current.time;
-
-        renderLanes(
-            "currentLanes",
-            current.lanes
-        );
-    }
-
-    if (next) {
-
-        document.getElementById(
-            "nextTimeSlot"
-        ).textContent =
-            next.time;
-
-        renderLanes(
-            "nextLanes",
-            next.lanes
-        );
-    }
-
-    document.getElementById(
-        "updated"
-    ).textContent =
-        scheduleData.updated;
-}
-
-async function loadData() {
-
-    try {
-
-        const response =
-            await fetch(
-                "schedule.json?t=" +
-                Date.now()
-            );
-
-        scheduleData =
-            await response.json();
-
-        render();
-
-    } catch (e) {
-
-        document.getElementById(
-            "updated"
-        ).textContent =
-            "JSON klaida";
-    }
-}
-
-updateClock();
-
-setInterval(
-    updateClock,
-    1000
-);
-
-loadData();
-
-setInterval(
-    loadData,
-    60000
-);
+    
