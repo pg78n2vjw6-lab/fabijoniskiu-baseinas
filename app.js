@@ -26,104 +26,54 @@ function updateClock() {
             }
         );
 
-    const clock =
-        document.getElementById("clock");
-
-    if(clock){
-        clock.textContent =
-            `${day} ${time}`;
-    }
+    document.getElementById("clock")
+        .textContent =
+        `${day} ${time}`;
 }
 
-function getCategory(value){
+function getCategory(value) {
 
     value = value || "";
 
-    if(value === "KLIENTAI"){
+    if (value === "KLIENTAI") {
         return "clients";
     }
 
-    if(
+    if (
         value.includes("SSC") ||
         value.includes("LNSF") ||
         value.includes("VVF") ||
         value.includes("NEMUNAS") ||
         value.includes("DELFINAS")
-    ){
+    ) {
         return "club";
     }
 
-    if(
+    if (
         value.includes("BTT") ||
         value.includes("ANTROKAI") ||
-        value.includes("TRE") ||
-        value.includes("MOKU") ||
-        value.includes("Vandens")
-    ){
+        value.includes("TREČIOKAI") ||
+        value.includes("Vandens") ||
+        value.includes("MOKU")
+    ) {
         return "group";
     }
 
     return "coach";
 }
 
-function minutesNow(){
+function renderLanes(containerId, lanes) {
 
-    const now = new Date();
+    const container =
+        document.getElementById(containerId);
 
-    return (
-        now.getHours() * 60 +
-        now.getMinutes()
-    );
-}
-
-function findCurrentIndex(slots){
-
-    const now =
-        minutesNow();
-
-    for(let i = 0; i < slots.length; i++){
-
-        const [start,end] =
-            slots[i].time.split("-");
-
-        const [sh,sm] =
-            start.split(":").map(Number);
-
-        const [eh,em] =
-            end.split(":").map(Number);
-
-        const startMin =
-            sh * 60 + sm;
-
-        const endMin =
-            eh * 60 + em;
-
-        if(
-            now >= startMin &&
-            now < endMin
-        ){
-            return i;
-        }
-    }
-
-    return 0;
-}
-
-function renderLanes(id, lanes){
-
-    const el =
-        document.getElementById(id);
-
-    if(
-        !el ||
-        !lanes
-    ){
+    if (!container) {
         return;
     }
 
-    el.innerHTML = "";
+    container.innerHTML = "";
 
-    lanes.forEach(lane => {
+    lanes.forEach((lane) => {
 
         const row =
             document.createElement("div");
@@ -144,19 +94,228 @@ function renderLanes(id, lanes){
             </span>
         `;
 
-        el.appendChild(row);
+        container.appendChild(row);
     });
 }
 
-function getTodaySchedule(){
+function findCurrentIndex(dayData) {
 
-    const keys =
+    const now =
+        new Date();
+
+    const currentMinutes =
+        now.getHours() * 60 +
+        now.getMinutes();
+
+    for (
+        let i = 0;
+        i < dayData.length;
+        i++
+    ) {
+
+        const slot =
+            dayData[i];
+
+        const parts =
+            slot.time.split("-");
+
+        const start =
+            parts[0];
+
+        const end =
+            parts[1];
+
+        const [sh, sm] =
+            start.split(":").map(Number);
+
+        const [eh, em] =
+            end.split(":").map(Number);
+
+        const from =
+            sh * 60 + sm;
+
+        const to =
+            eh * 60 + em;
+
+        if (
+            currentMinutes >= from &&
+            currentMinutes < to
+        ) {
+            return i;
+        }
+    }
+
+    return 0;
+}
+
+function render() {
+
+    if (!scheduleData) {
+        return;
+    }
+
+    const dayName =
+        LT_DAYS[
+            new Date().getDay()
+        ];
+
+    const allDays =
         Object.keys(
             scheduleData.schedule
         );
 
-    const today =
-        new Date().getDay();
+    let dayData =
+        scheduleData.schedule[dayName];
 
-    if(today === 1){
-        return scheduleData.schedule[key
+    if (!dayData) {
+
+        const fallback =
+            allDays.find(
+                day =>
+                    day.toLowerCase()
+                       .trim() ===
+                    dayName.toLowerCase()
+                           .trim()
+            );
+
+        if (fallback) {
+            dayData =
+                scheduleData.schedule[
+                    fallback
+                ];
+        }
+    }
+
+    if (!dayData) {
+
+        document
+            .getElementById(
+                "updated"
+            )
+            .textContent =
+            "Nerasta diena";
+
+        return;
+    }
+
+    const currentIndex =
+        findCurrentIndex(
+            dayData
+        );
+
+    const previous =
+        currentIndex > 0
+            ? dayData[
+                currentIndex - 1
+              ]
+            : null;
+
+    const current =
+        dayData[
+            currentIndex
+        ];
+
+    const next =
+        currentIndex <
+        dayData.length - 1
+            ? dayData[
+                currentIndex + 1
+              ]
+            : null;
+
+    if (previous) {
+
+        document
+            .getElementById(
+                "previousTimeSlot"
+            )
+            .textContent =
+            previous.time;
+
+        renderLanes(
+            "previousLanes",
+            previous.lanes
+        );
+    }
+
+    if (current) {
+
+        document
+            .getElementById(
+                "currentTimeSlot"
+            )
+            .textContent =
+            current.time;
+
+        renderLanes(
+            "currentLanes",
+            current.lanes
+        );
+    }
+
+    if (next) {
+
+        document
+            .getElementById(
+                "nextTimeSlot"
+            )
+            .textContent =
+            next.time;
+
+        renderLanes(
+            "nextLanes",
+            next.lanes
+        );
+    }
+
+    document
+        .getElementById(
+            "updated"
+        )
+        .textContent =
+        scheduleData.updated;
+}
+
+async function loadData() {
+
+    try {
+
+        const response =
+            await fetch(
+                "schedule.json?t=" +
+                Date.now()
+            );
+
+        scheduleData =
+            await response.json();
+
+        render();
+
+    } catch (error) {
+
+        console.error(
+            error
+        );
+
+        document
+            .getElementById(
+                "updated"
+            )
+            .textContent =
+            "JSON klaida";
+    }
+}
+
+updateClock();
+
+setInterval(
+    updateClock,
+    1000
+);
+
+loadData();
+
+setInterval(
+    loadData,
+    60000
+);
