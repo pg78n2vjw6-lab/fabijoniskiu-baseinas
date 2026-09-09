@@ -101,6 +101,9 @@ function render() {
         return;
     }
 
+    console.log("Diena:", dayName);
+console.log("dayData:", dayData);
+
     const idx =
         findCurrentIndex(dayData);
 
@@ -173,7 +176,9 @@ scheduleData =
 
 document.getElementById("updated").textContent =
     "JSON OK";
-
+        
+console.log(scheduleData);
+        
 render();
 
     } catch (e) {
