@@ -1,98 +1,129 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    box-sizing:border-box;
 }
 
 body{
-    background:#071421;
+    margin:0;
+    background:#0b1726;
     color:white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Segoe UI, Arial, sans-serif;
+}
 
-    width:100vw;
-    height:100vh;
+header{
+    text-align:center;
+    padding:16px;
+}
+
+h1{
+    margin:0;
+    font-size:44px;
+    font-weight:700;
+}
+
+#clock{
+    margin-top:8px;
+    font-size:26px;
+    color:#9fd8ff;
+}
+
+.container{
 
     display:flex;
     flex-direction:column;
 
-    overflow-y:auto;
-    overflow-x:hidden;
+    gap:14px;
+
+    padding:12px;
 }
 
-.header{
+section{
+
+    background:#102840;
+
+    border:2px solid #22496b;
+
+    border-radius:14px;
+
+    padding:12px;
+}
+
+.section-title{
+
+    font-size:30px;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
     text-align:center;
-    padding:30px 20px;
 }
 
-.header h1{
-    font-size:58px;
-    letter-spacing:2px;
+.previous{
+    color:#bfc7cf;
+}
+
+.current{
+    color:#61ff84;
+}
+
+.next{
+    color:#8bc8ff;
+}
+
+.slotTime{
+
+    text-align:center;
+
+    font-size:24px;
+
+    font-weight:700;
+
     margin-bottom:10px;
 }
 
-#clock{
-    font-size:36px;
-    color:#7edfff;
-}
-
-.section{
-    flex:1;
-    padding:15px 25px;
-}
-
-.section h2{
-    font-size:34px;
-    margin-bottom:8px;
-    color:#7edfff;
-}
-
-.timeslot{
-    font-size:28px;
-    margin-bottom:12px;
-    font-weight:bold;
-}
-
-.lanes{
-    display:grid;
-    grid-template-columns:1fr;
-    gap:8px;
-}
-
 .lane{
-    display:flex;
-    justify-content:space-between;
+
+    display:grid;
+
+    grid-template-columns:
+        110px 1fr;
+
     align-items:center;
 
-    padding:12px 18px;
+    margin-bottom:6px;
 
-    border-radius:12px;
+    border-radius:8px;
 
-    font-size:28px;
+    padding:8px 12px;
+
+    font-size:20px;
+
+    font-weight:600;
 }
 
 .lane-number{
-    font-weight:bold;
+    font-weight:700;
 }
 
 .clients{
-    background:#177d1f;
+
+    background:#1e8f3f;
 }
 
+.club,
+.group,
 .coach{
-    background:#6a3db4;
+
+    background:#e57e25;
 }
 
-.group{
-    background:#d97706;
-}
+footer{
 
-.club{
-    background:#1463c0;
-}
-
-.footer{
     text-align:center;
-    padding:12px;
-    color:#bfc9d4;
-    font-size:18px;
+
+    font-size:16px;
+
+    color:#aab6c2;
+
+    padding:10px 0 16px;
 }
