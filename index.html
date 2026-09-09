@@ -3,56 +3,118 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fabijoniškių Baseinas</title>
+
+<title>Fabijoniškių baseinas</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
 <header>
-    <h1>FABIJONIŠKIŲ BASEINAS</h1>
-    <div id="clock"></div>
+
+    <div class="header-title">
+        FABIJONIŠKIŲ BASEINAS
+    </div>
+
+    <div id="clock" class="clock">
+        --
+    </div>
+
 </header>
 
-<div class="container">
+<main>
 
-<section>
-    <div class="section-title previous">
-        PRAĖJĘS
-    </div>
+    <section class="time-block">
 
-    <div id="previousTimeSlot"
-         class="slotTime">-</div>
+        <div class="block-header previous-header">
+            PRAĖJĘS
+        </div>
 
-    <div id="previousLanes"></div>
-</section>
+        <div
+            id="previousTimeSlot"
+            class="time-slot"
+        >
+            -
+        </div>
 
-<section>
-    <div class="section-title current">
-        DABAR
-    </div>
+        <div id="previousLanes"></div>
 
-    <div id="currentTimeSlot"
-         class="slotTime">-</div>
+    </section>
 
-    <div id="currentLanes"></div>
-</section>
+    <section class="time-block current-block">
 
-<section>
-    <div class="section-title next">
-        KITAS
-    </div>
+        <div class="block-header current-header">
+            DABAR
+        </div>
 
-    <div id="nextTimeSlot"
-         class="slotTime">-</div>
+        <div
+            id="currentTimeSlot"
+            class="time-slot"
+        >
+            -
+        </div>
 
-    <div id="nextLanes"></div>
-</section>
+        <div id="currentLanes"></div>
 
-</div>
+    </section>
+
+    <section class="time-block">
+
+        <div class="block-header next-header">
+            KITAS
+        </div>
+
+        <div
+            id="nextTimeSlot"
+            class="time-slot"
+        >
+            -
+        </div>
+
+        <div id="nextLanes"></div>
+
+    </section>
+
+</main>
 
 <footer>
-    Duomenys atnaujinti:
-    <span id="updated">-</span>
+
+    <div class="legend">
+
+        <div class="legend-item">
+            <span class="legend-box clients"></span>
+            Laisvi takeliai
+        </div>
+
+        <div class="legend-item">
+            <span class="legend-box club"></span>
+            Klubai
+        </div>
+
+        <div class="legend-item">
+            <span class="legend-box group"></span>
+            Grupės
+        </div>
+
+        <div class="legend-item">
+            <span class="legend-box coach"></span>
+            Treneriai
+        </div>
+
+    </div>
+
+    <div class="updated-line">
+
+        Duomenys atnaujinti:
+
+        <span id="updated">
+            -
+        </span>
+
+    </div>
+
 </footer>
 
 <script src="app.js"></script>
