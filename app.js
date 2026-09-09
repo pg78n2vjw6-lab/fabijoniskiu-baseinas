@@ -14,9 +14,10 @@ function updateClock() {
 
     const now = new Date();
 
-    document.getElementById("clock").textContent =
-        LT_DAYS[now.getDay()] +
-        " " +
+    const day =
+        LT_DAYS[now.getDay()];
+
+    const time =
         now.toLocaleTimeString(
             "lt-LT",
             {
@@ -24,49 +25,103 @@ function updateClock() {
                 minute: "2-digit"
             }
         );
+
+    const clock =
+        document.getElementById("clock");
+
+    if(clock){
+        clock.textContent =
+            `${day} ${time}`;
+    }
 }
 
-function getCategory(value) {
+function getCategory(value){
 
     value = value || "";
 
-    if (value === "KLIENTAI") {
+    if(value === "KLIENTAI"){
         return "clients";
     }
 
-    if (
+    if(
         value.includes("SSC") ||
         value.includes("LNSF") ||
         value.includes("VVF") ||
         value.includes("NEMUNAS") ||
         value.includes("DELFINAS")
-    ) {
+    ){
         return "club";
     }
 
-    if (
+    if(
         value.includes("BTT") ||
         value.includes("ANTROKAI") ||
-        value.includes("TREČIOKAI") ||
-        value.includes("Vandens") ||
-        value.includes("MOKU")
-    ) {
+        value.includes("TRE") ||
+        value.includes("MOKU") ||
+        value.includes("Vandens")
+    ){
         return "group";
     }
 
     return "coach";
 }
 
-function renderLanes(containerId, lanes) {
+function minutesNow(){
 
-    const container =
-        document.getElementById(containerId);
+    const now = new Date();
 
-    if (!container) {
+    return (
+        now.getHours() * 60 +
+        now.getMinutes()
+    );
+}
+
+function findCurrentIndex(slots){
+
+    const now =
+        minutesNow();
+
+    for(let i = 0; i < slots.length; i++){
+
+        const [start,end] =
+            slots[i].time.split("-");
+
+        const [sh,sm] =
+            start.split(":").map(Number);
+
+        const [eh,em] =
+            end.split(":").map(Number);
+
+        const startMin =
+            sh * 60 + sm;
+
+        const endMin =
+            eh * 60 + em;
+
+        if(
+            now >= startMin &&
+            now < endMin
+        ){
+            return i;
+        }
+    }
+
+    return 0;
+}
+
+function renderLanes(id, lanes){
+
+    const el =
+        document.getElementById(id);
+
+    if(
+        !el ||
+        !lanes
+    ){
         return;
     }
 
-    container.innerHTML = "";
+    el.innerHTML = "";
 
     lanes.forEach(lane => {
 
@@ -75,90 +130,33 @@ function renderLanes(containerId, lanes) {
 
         row.className =
             "lane " +
-            getCategory(lane.value);
+            getCategory(
+                lane.value
+            );
 
-        row.innerHTML =
-            `<span class="lane-number">
+        row.innerHTML = `
+            <span class="lane-number">
                 Takelis ${lane.lane}
             </span>
+
             <span>
                 ${lane.value}
-            </span>`;
+            </span>
+        `;
 
-        container.appendChild(row);
+        el.appendChild(row);
     });
 }
 
-function findCurrentIndex(slots) {
+function getTodaySchedule(){
 
-    const now = new Date();
+    const keys =
+        Object.keys(
+            scheduleData.schedule
+        );
 
-    const currentMinutes =
-        now.getHours() * 60 +
-        now.getMinutes();
+    const today =
+        new Date().getDay();
 
-    for (let i = 0; i < slots.length; i++) {
-
-        const parts =
-            slots[i].time.split("-");
-
-        const start =
-            parts[0];
-
-        const end =
-            parts[1];
-
-        const [sh, sm] =
-            start.split(":").map(Number);
-
-        const [eh, em] =
-            end.split(":").map(Number);
-
-        const from =
-            sh * 60 + sm;
-
-        const to =
-            eh * 60 + em;
-
-        if (
-            currentMinutes >= from &&
-            currentMinutes < to
-        ) {
-            return i;
-        }
-    }
-
-    return 0;
-}
-
-function render() {
-
-    if (!scheduleData) {
-        return;
-    }
-
-    const dayName =
-        LT_DAYS[new Date().getDay()];
-
-    const dayData =
-        scheduleData.schedule[dayName];
-
-    if (!dayData) {
-
-        document.getElementById("updated")
-            .textContent =
-            "Nerasta diena: " +
-            dayName;
-
-        return;
-    }
-
-    const idx =
-        findCurrentIndex(dayData);
-
-    const previous =
-        idx > 0
-            ? dayData[idx - 1]
-            : null;
-
-    
+    if(today === 1){
+        return scheduleData.schedule[key
