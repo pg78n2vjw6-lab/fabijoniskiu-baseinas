@@ -137,8 +137,25 @@ function render() {
     const dayName =
         LT_DAYS[new Date().getDay()];
 
-    const dayData =
-        scheduleData.schedule[dayName];
+let dayData =
+    scheduleData.schedule[dayName];
+
+if(!dayData){
+
+    const key =
+        Object.keys(
+            scheduleData.schedule
+        ).find(
+            k => k.includes(
+                dayName.substring(0,5)
+            )
+        );
+
+    if(key){
+        dayData =
+            scheduleData.schedule[key];
+    }
+}
 
     if (!dayData || dayData.length === 0) {
         return;
