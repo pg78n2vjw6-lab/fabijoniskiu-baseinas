@@ -14,9 +14,10 @@ function updateClock() {
 
     const now = new Date();
 
-    document.getElementById("clock").textContent =
-        LT_DAYS[now.getDay()] +
-        " " +
+    const day =
+        LT_DAYS[now.getDay()];
+
+    const time =
         now.toLocaleTimeString(
             "lt-LT",
             {
@@ -24,60 +25,83 @@ function updateClock() {
                 minute: "2-digit"
             }
         );
+
+    document.getElementById("clock")
+        .textContent =
+        `${day} ${time}`;
 }
 
-function renderLanes(id, lanes) {
+function getCategory(value){
 
-    const el =
-        document.getElementById(id);
+    value = value || "";
 
-    el.innerHTML = "";
+    if(value === "KLIENTAI"){
+        return "clients";
+    }
 
-    lanes.forEach(lane => {
+    if(
+        value.includes("SSC") ||
+        value.includes("LNSF") ||
+        value.includes("VVF") ||
+        value.includes("NEMUNAS") ||
+        value.includes("DELFINAS")
+    ){
+        return "club";
+    }
 
-        const row =
-            document.createElement("div");
+    if(
+        value.includes("BTT") ||
+        value.includes("ANTROKAI") ||
+        value.includes("TRE") ||
+        value.includes("Vandens") ||
+        value.includes("MOKU")
+    ){
+        return "group";
+    }
 
-        row.className = "lane";
-
-        row.innerHTML =
-            "<span>Takelis " +
-            lane.lane +
-            "</span><span>" +
-            lane.value +
-            "</span>";
-
-        el.appendChild(row);
-    });
+    return "coach";
 }
 
-function findCurrentIndex(slots) {
+function minutesNow(){
 
     const now = new Date();
-    const nowMin =
+
+    return (
         now.getHours() * 60 +
-        now.getMinutes();
+        now.getMinutes()
+    );
+}
 
-    for (let i = 0; i < slots.length; i++) {
+function findCurrentIndex(slots){
 
-        const parts =
+    const now =
+        minutesNow();
+
+    for(
+        let i = 0;
+        i < slots.length;
+        i++
+    ){
+
+        const [start,end] =
             slots[i].time.split("-");
 
-        const start =
-            parts[0].split(":");
+        const [sh,sm] =
+            start.split(":").map(Number);
 
-        const end =
-            parts[1].split(":");
+        const [eh,em] =
+            end.split(":").map(Number);
 
-        const from =
-            Number(start[0]) * 60 +
-            Number(start[1]);
+        const startMin =
+            sh * 60 + sm;
 
-        const to =
-            Number(end[0]) * 60 +
-            Number(end[1]);
+        const endMin =
+            eh * 60 + em;
 
-        if (nowMin >= from && nowMin < to) {
+        if(
+            now >= startMin &&
+            now < endMin
+        ){
             return i;
         }
     }
@@ -85,70 +109,153 @@ function findCurrentIndex(slots) {
     return 0;
 }
 
-function render() {
+function renderLanes(
+    containerId,
+    lanes
+){
 
-    const day =
-        LT_DAYS[new Date().getDay()];
+    const container =
+        document.getElementById(
+            containerId
+        );
+
+    if(!container){
+        return;
+    }
+
+    container.innerHTML = "";
+
+    lanes.forEach(lane => {
+
+        const row =
+            document.createElement("div");
+
+        row.className =
+            "lane " +
+            getCategory(
+                lane.value
+            );
+
+        row.innerHTML = `
+            <span class="lane-number">
+                Takelis ${lane.lane}
+            </span>
+
+            <span>
+                ${lane.value}
+            </span>
+        `;
+
+        container.appendChild(row);
+
+    });
+
+}
+
+function findDayData(dayName){
+
+    let dayData =
+        scheduleData.schedule[dayName];
+
+    if(dayData){
+        return dayData;
+    }
+
+    const keys =
+        Object.keys(
+            scheduleData.schedule
+        );
+
+    const match =
+        keys.find(
+            k =>
+                k.startsWith(
+                    dayName.substring(0,5)
+                )
+        );
+
+    if(match){
+        return scheduleData.schedule[match];
+    }
+
+    return null;
+}
+
+function render(){
+
+    if(!scheduleData){
+        return;
+    }
+
+    const dayName =
+        LT_DAYS[
+            new Date().getDay()
+        ];
 
     const dayData =
-        scheduleData.schedule[day];
+        findDayData(dayName);
 
-    if (!dayData) {
-        console.error(
-            "Nerasta diena:",
-            day
+    if(
+        !dayData ||
+        dayData.length === 0
+    ){
+        console.log(
+            "Nerasti dienos duomenys:",
+            dayName
         );
         return;
     }
 
-    console.log("Diena:", dayName);
-console.log("dayData:", dayData);
-
     const idx =
-        findCurrentIndex(dayData);
+        findCurrentIndex(
+            dayData
+        );
 
-    const prev =
+    const previous =
         idx > 0
-            ? dayData[idx - 1]
+            ? dayData[idx-1]
             : null;
 
-    const curr =
+    const current =
         dayData[idx];
 
     const next =
-        idx < dayData.length - 1
-            ? dayData[idx + 1]
+        idx < dayData.length-1
+            ? dayData[idx+1]
             : null;
 
-    if (prev) {
+    if(previous){
 
         document.getElementById(
             "previousTimeSlot"
-        ).textContent = prev.time;
+        ).textContent =
+            previous.time;
 
         renderLanes(
             "previousLanes",
-            prev.lanes
+            previous.lanes
         );
     }
 
-    if (curr) {
+    if(current){
 
         document.getElementById(
             "currentTimeSlot"
-        ).textContent = curr.time;
+        ).textContent =
+            current.time;
 
         renderLanes(
             "currentLanes",
-            curr.lanes
+            current.lanes
         );
     }
 
-    if (next) {
+    if(next){
 
         document.getElementById(
             "nextTimeSlot"
-        ).textContent = next.time;
+        ).textContent =
+            next.time;
 
         renderLanes(
             "nextLanes",
@@ -162,28 +269,26 @@ console.log("dayData:", dayData);
         scheduleData.updated;
 }
 
-async function loadData() {
+async function loadData(){
 
-    try {
+    try{
 
         const response =
             await fetch(
                 "schedule.json?t=" +
                 Date.now()
             );
-scheduleData =
-    await response.json();
 
-document.getElementById("updated").textContent =
-    "JSON OK";
-        
-console.log(scheduleData);
-        
-render();
+        scheduleData =
+            await response.json();
 
-    } catch (e) {
+        render();
 
-        console.error(e);
+    }
+    catch(err){
+
+        console.error(err);
+
     }
 }
 
