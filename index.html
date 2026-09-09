@@ -3,115 +3,114 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Fabijoniškių baseinas</title>
-
+<title>Fabijoniškių Baseinas</title>
 <link rel="stylesheet" href="style.css">
-
 </head>
-
 <body>
 
 <header>
 
-    <div class="header-title">
-        FABIJONIŠKIŲ BASEINAS
-    </div>
+    <h1>FABIJONIŠKIŲ BASEINAS</h1>
 
-    <div id="clock" class="clock">
-        --
+    <div id="clock"></div>
+
+    <div class="legend">
+
+        <div class="legend-item">
+            <span class="legend-box clients"></span>
+            KLIENTAI (laisvi takeliai)
+        </div>
+
+        <div class="legend-item">
+            <span class="legend-box busy"></span>
+            TRENIRUOTĖS / KLUBAI / GRUPĖS
+        </div>
+
     </div>
 
 </header>
 
-<main>
+<div class="container">
 
-    <section class="time-block">
+    <section>
 
-        <div class="block-header previous-header">
+        <div class="section-title previous">
             PRAĖJĘS
         </div>
 
-        <div
-            id="previousTimeSlot"
-            class="time-slot"
-        >
-            -
+        <div id="previousTimeSlot"
+             class="slotTime">-</div>
+
+        <div class="table-header">
+            <span>TAKELIS</span>
+            <span>UŽIMTUMAS</span>
         </div>
 
         <div id="previousLanes"></div>
 
     </section>
 
-    <section class="time-block current-block">
+    <section>
 
-        <div class="block-header current-header">
+        <div class="section-title current">
             DABAR
         </div>
 
-        <div
-            id="currentTimeSlot"
-            class="time-slot"
-        >
-            -
+        <div id="currentTimeSlot"
+             class="slotTime">-</div>
+
+        <div class="table-header">
+            <span>TAKELIS</span>
+            <span>UŽIMTUMAS</span>
         </div>
 
         <div id="currentLanes"></div>
 
     </section>
 
-    <section class="time-block">
+    <section>
 
-        <div class="block-header next-header">
+        <div class="section-title next">
             KITAS
         </div>
 
-        <div
-            id="nextTimeSlot"
-            class="time-slot"
-        >
-            -
+        <div id="nextTimeSlot"
+             class="slotTime">-</div>
+
+        <div class="table-header">
+            <span>TAKELIS</span>
+            <span>UŽIMTUMAS</span>
         </div>
 
         <div id="nextLanes"></div>
 
     </section>
 
-</main>
+</div>
 
 <footer>
 
-    <div class="legend">
+    <div class="footer-content">
 
-        <div class="legend-item">
-            <span class="legend-box clients"></span>
-            Laisvi takeliai
+        <div class="qr-block">
+
+            <img
+                src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://www.fabijoniskiubaseinas.lt/tvarkarastis/baseino-uzimtumo-tvarkarastis <div class="footer-info">
+
+            <div class="footer-title">
+                Pilnas baseino užimtumo tvarkaraštis
+            </div>
+
+            <div class="footer-text">
+                Nuskenuokite QR kodą telefonu
+            </div>
+
+            <div class="footer-update">
+                Duomenys atnaujinti:
+                <span id="updated">-</span>
+            </div>
+
         </div>
-
-        <div class="legend-item">
-            <span class="legend-box club"></span>
-            Klubai
-        </div>
-
-        <div class="legend-item">
-            <span class="legend-box group"></span>
-            Grupės
-        </div>
-
-        <div class="legend-item">
-            <span class="legend-box coach"></span>
-            Treneriai
-        </div>
-
-    </div>
-
-    <div class="updated-line">
-
-        Duomenys atnaujinti:
-
-        <span id="updated">
-            -
-        </span>
 
     </div>
 
