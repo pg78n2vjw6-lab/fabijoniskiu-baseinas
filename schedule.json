@@ -1,47 +1,5458 @@
 {
-  "updated": "2026-09-07 16:30",
+  "updated": "2026-09-09 11:51",
   "schedule": {
     "Pirmadienis": [
       {
+        "time": "6:00-6:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Povilas Å P"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "6:45-7:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Povilas Å P"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "7:30-8:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "8:15-9:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:00-9:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:45-10:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "10:30-11:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "11:15-12:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:00-12:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:45-13:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "13:30-14:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
         "time": "14:15-15:00",
         "lanes": [
-          {"lane":1,"value":"KLIENTAI"},
-          {"lane":2,"value":"KLIENTAI"},
-          {"lane":3,"value":"KLIENTAI"},
-          {"lane":4,"value":"KLIENTAI"},
-          {"lane":5,"value":"KLIENTAI"},
-          {"lane":6,"value":"Gražina BR"},
-          {"lane":7,"value":"Valia BR"},
-          {"lane":8,"value":"SSC FAG V"}
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "GraÅ¾ina BR"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
         ]
       },
       {
         "time": "15:00-15:45",
         "lanes": [
-          {"lane":1,"value":"KLIENTAI"},
-          {"lane":2,"value":"KLIENTAI"},
-          {"lane":3,"value":"KLIENTAI"},
-          {"lane":4,"value":"KLIENTAI"},
-          {"lane":5,"value":"Gražina SR-C"},
-          {"lane":6,"value":"AZ SR-B"},
-          {"lane":7,"value":"Valia BR"},
-          {"lane":8,"value":"SSC FAG V"}
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina SR-C"
+          },
+          {
+            "lane": 6,
+            "value": "AZ SR-B"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
         ]
       },
       {
         "time": "15:45-16:30",
         "lanes": [
-          {"lane":1,"value":"KLIENTAI"},
-          {"lane":2,"value":"KLIENTAI"},
-          {"lane":3,"value":"KLIENTAI"},
-          {"lane":4,"value":"KLIENTAI"},
-          {"lane":5,"value":"Gražina SR-C"},
-          {"lane":6,"value":"AZ SR-B"},
-          {"lane":7,"value":"Valia BR"},
-          {"lane":8,"value":"SSC FAG V"}
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina SR-C"
+          },
+          {
+            "lane": 6,
+            "value": "AZ SR-B"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "16:30-17:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "DELFINAS"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina BR"
+          },
+          {
+            "lane": 6,
+            "value": "AZ SR-A"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "17:15-18:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina BR"
+          },
+          {
+            "lane": 6,
+            "value": "AZ SR-A"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:00-18:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Povilas Å P"
+          },
+          {
+            "lane": 6,
+            "value": "Valia pp"
+          },
+          {
+            "lane": 7,
+            "value": "Tadas"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:45-19:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 6,
+            "value": "Povilas Å P"
+          },
+          {
+            "lane": 7,
+            "value": "Valia pp"
+          },
+          {
+            "lane": 8,
+            "value": "Tadas"
+          }
+        ]
+      },
+      {
+        "time": "19:30-20:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 6,
+            "value": "Valia pp"
+          },
+          {
+            "lane": 7,
+            "value": "Tadas"
+          },
+          {
+            "lane": 8,
+            "value": "Tadas"
+          }
+        ]
+      },
+      {
+        "time": "20:15-21:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      },
+      {
+        "time": "21:00-21:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      }
+    ],
+    "Antradienis": [
+      {
+        "time": "6:00-6:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "6:45-7:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "7:30-8:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "8:15-9:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:00-9:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:45-10:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "10:30-11:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "11:15-12:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:00-12:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:45-13:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "13:30-14:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "14:15-15:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "15:00-15:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "15:45-16:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR-B"
+          },
+          {
+            "lane": 6,
+            "value": "AZ SR-C"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "16:30-17:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "DELFINAS"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR-B"
+          },
+          {
+            "lane": 6,
+            "value": "AZ SR-C"
+          },
+          {
+            "lane": 7,
+            "value": "Liza BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "17:15-18:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR-B"
+          },
+          {
+            "lane": 6,
+            "value": "AZ SR-C"
+          },
+          {
+            "lane": 7,
+            "value": "Liza BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:00-18:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR-A"
+          },
+          {
+            "lane": 6,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 7,
+            "value": "Liza pp"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:45-19:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "Liza pp"
+          },
+          {
+            "lane": 8,
+            "value": "Tadas"
+          }
+        ]
+      },
+      {
+        "time": "19:30-20:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "BTT"
+          },
+          {
+            "lane": 6,
+            "value": "Liza pp"
+          },
+          {
+            "lane": 7,
+            "value": "Tadas"
+          },
+          {
+            "lane": 8,
+            "value": "Tadas"
+          }
+        ]
+      },
+      {
+        "time": "20:15-21:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      },
+      {
+        "time": "21:00-21:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      }
+    ],
+    "TreÄiadienis": [
+      {
+        "time": "6:00-6:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Povilas Å P"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "6:45-7:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Povilas Å P"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "7:30-8:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "8:15-9:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:00-9:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:45-10:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "10:30-11:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "11:15-12:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:00-12:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:45-13:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "13:30-14:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "14:15-15:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "GraÅ¾ina BR"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "15:00-15:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina SR-C"
+          },
+          {
+            "lane": 6,
+            "value": "AZ SR-B"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "15:45-16:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina SR-C"
+          },
+          {
+            "lane": 6,
+            "value": "AZ SR-B"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "16:30-17:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "DELFINAS"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina BR"
+          },
+          {
+            "lane": 6,
+            "value": "AZ SR-A"
+          },
+          {
+            "lane": 7,
+            "value": "Liza BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "17:15-18:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina BR"
+          },
+          {
+            "lane": 6,
+            "value": "AZ SR-A"
+          },
+          {
+            "lane": 7,
+            "value": "Liza BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:00-18:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina BR"
+          },
+          {
+            "lane": 6,
+            "value": "Valia pp"
+          },
+          {
+            "lane": 7,
+            "value": "Liza pp"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:45-19:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "Valia pp"
+          },
+          {
+            "lane": 7,
+            "value": "Liza pp"
+          },
+          {
+            "lane": 8,
+            "value": "Nerijus"
+          }
+        ]
+      },
+      {
+        "time": "19:30-20:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Valia pp"
+          },
+          {
+            "lane": 6,
+            "value": "Liza pp"
+          },
+          {
+            "lane": 7,
+            "value": "Nerijus"
+          },
+          {
+            "lane": 8,
+            "value": "Nerijus"
+          }
+        ]
+      },
+      {
+        "time": "20:15-21:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      },
+      {
+        "time": "21:00-21:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      }
+    ],
+    "Ketvirtadienis": [
+      {
+        "time": "6:00-6:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "6:45-7:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "7:30-8:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "8:15-9:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:00-9:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:45-10:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "10:30-11:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "11:15-12:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:00-12:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:45-13:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "13:30-14:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "14:15-15:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "GraÅ¾ina BR-1"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "15:00-15:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina BR-1"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "15:45-16:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR-B"
+          },
+          {
+            "lane": 6,
+            "value": "GraÅ¾ina SR-C"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "16:30-17:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR-B"
+          },
+          {
+            "lane": 6,
+            "value": "GraÅ¾ina SR-C"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "17:15-18:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR-B"
+          },
+          {
+            "lane": 6,
+            "value": "GraÅ¾ina SR-C"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:00-18:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR-A"
+          },
+          {
+            "lane": 6,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:45-19:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "DELFINAS"
+          },
+          {
+            "lane": 7,
+            "value": "Valia pp"
+          },
+          {
+            "lane": 8,
+            "value": "Valia pp"
+          }
+        ]
+      },
+      {
+        "time": "19:30-20:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "BTT"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "Valia pp"
+          },
+          {
+            "lane": 8,
+            "value": "Valia pp"
+          }
+        ]
+      },
+      {
+        "time": "20:15-21:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "VVF"
+          },
+          {
+            "lane": 8,
+            "value": "VVF"
+          }
+        ]
+      },
+      {
+        "time": "21:00-21:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "VVF"
+          },
+          {
+            "lane": 8,
+            "value": "VVF"
+          }
+        ]
+      }
+    ],
+    "Penktadienis": [
+      {
+        "time": "6:00-6:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "BTT"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "6:45-7:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "BTT"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "7:30-8:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "BTT"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "8:15-9:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:00-9:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:45-10:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "10:30-11:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "11:15-12:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:00-12:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:45-13:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "13:30-14:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "TREÄŒIOKAI"
+          },
+          {
+            "lane": 8,
+            "value": "TREÄŒIOKAI"
+          }
+        ]
+      },
+      {
+        "time": "14:15-15:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "GraÅ¾ina BR"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "15:00-15:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina SR-C"
+          },
+          {
+            "lane": 6,
+            "value": "Oksana SR-B"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "15:45-16:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina SR-C"
+          },
+          {
+            "lane": 6,
+            "value": "Oksana SR-B"
+          },
+          {
+            "lane": 7,
+            "value": "Liza BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "16:30-17:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina BR"
+          },
+          {
+            "lane": 6,
+            "value": "Oksana SR-A"
+          },
+          {
+            "lane": 7,
+            "value": "Liza BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "17:15-18:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina BR"
+          },
+          {
+            "lane": 6,
+            "value": "Oksana SR-A"
+          },
+          {
+            "lane": 7,
+            "value": "Liza BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:00-18:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 5,
+            "value": "GraÅ¾ina BR"
+          },
+          {
+            "lane": 6,
+            "value": "Oksana SR-A"
+          },
+          {
+            "lane": 7,
+            "value": "Liza pp"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:45-19:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "Liza pp"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      },
+      {
+        "time": "19:30-20:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "SSC BR"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      },
+      {
+        "time": "20:15-21:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      },
+      {
+        "time": "21:00-21:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      }
+    ],
+    "Å eÅ¡tadienis": [
+      {
+        "time": "6:00-6:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": ""
+          },
+          {
+            "lane": 2,
+            "value": ""
+          },
+          {
+            "lane": 3,
+            "value": ""
+          },
+          {
+            "lane": 4,
+            "value": ""
+          },
+          {
+            "lane": 5,
+            "value": ""
+          },
+          {
+            "lane": 6,
+            "value": ""
+          },
+          {
+            "lane": 7,
+            "value": ""
+          },
+          {
+            "lane": 8,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "time": "6:45-7:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": ""
+          },
+          {
+            "lane": 2,
+            "value": ""
+          },
+          {
+            "lane": 3,
+            "value": ""
+          },
+          {
+            "lane": 4,
+            "value": ""
+          },
+          {
+            "lane": 5,
+            "value": ""
+          },
+          {
+            "lane": 6,
+            "value": ""
+          },
+          {
+            "lane": 7,
+            "value": ""
+          },
+          {
+            "lane": 8,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "time": "7:30-8:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": ""
+          },
+          {
+            "lane": 2,
+            "value": ""
+          },
+          {
+            "lane": 3,
+            "value": ""
+          },
+          {
+            "lane": 4,
+            "value": ""
+          },
+          {
+            "lane": 5,
+            "value": ""
+          },
+          {
+            "lane": 6,
+            "value": ""
+          },
+          {
+            "lane": 7,
+            "value": ""
+          },
+          {
+            "lane": 8,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "time": "8:15-9:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "BTT"
+          }
+        ]
+      },
+      {
+        "time": "9:00-9:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Renata BR"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG V"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "9:45-10:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "Renata BR"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG V"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "10:30-11:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "Renata BR"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG V"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "11:15-12:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "Renata BR"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG V"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "12:00-12:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "Renata BR"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG V"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "12:45-13:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "Renata BR"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG V"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "13:30-14:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG V"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "14:15-15:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "DELFINAS"
+          }
+        ]
+      },
+      {
+        "time": "15:00-15:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "DELFINAS"
+          },
+          {
+            "lane": 7,
+            "value": "DELFINAS"
+          },
+          {
+            "lane": 8,
+            "value": "DELFINAS"
+          }
+        ]
+      },
+      {
+        "time": "15:45-16:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensvydis"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensvydis"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensvydis"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensvydis"
+          }
+        ]
+      },
+      {
+        "time": "16:30-17:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensvydis"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensvydis"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensvydis"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensvydis"
+          }
+        ]
+      },
+      {
+        "time": "17:15-18:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "18:00-18:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "18:45-19:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "19:30-20:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "20:15-21:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "21:00-21:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": ""
+          },
+          {
+            "lane": 2,
+            "value": ""
+          },
+          {
+            "lane": 3,
+            "value": ""
+          },
+          {
+            "lane": 4,
+            "value": ""
+          },
+          {
+            "lane": 5,
+            "value": ""
+          },
+          {
+            "lane": 6,
+            "value": ""
+          },
+          {
+            "lane": 7,
+            "value": ""
+          },
+          {
+            "lane": 8,
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "Sekmadienis": [
+      {
+        "time": "6:00-6:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": ""
+          },
+          {
+            "lane": 2,
+            "value": ""
+          },
+          {
+            "lane": 3,
+            "value": ""
+          },
+          {
+            "lane": 4,
+            "value": ""
+          },
+          {
+            "lane": 5,
+            "value": ""
+          },
+          {
+            "lane": 6,
+            "value": ""
+          },
+          {
+            "lane": 7,
+            "value": ""
+          },
+          {
+            "lane": 8,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "time": "6:45-7:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": ""
+          },
+          {
+            "lane": 2,
+            "value": ""
+          },
+          {
+            "lane": 3,
+            "value": ""
+          },
+          {
+            "lane": 4,
+            "value": ""
+          },
+          {
+            "lane": 5,
+            "value": ""
+          },
+          {
+            "lane": 6,
+            "value": ""
+          },
+          {
+            "lane": 7,
+            "value": ""
+          },
+          {
+            "lane": 8,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "time": "7:30-8:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": ""
+          },
+          {
+            "lane": 2,
+            "value": ""
+          },
+          {
+            "lane": 3,
+            "value": ""
+          },
+          {
+            "lane": 4,
+            "value": ""
+          },
+          {
+            "lane": 5,
+            "value": ""
+          },
+          {
+            "lane": 6,
+            "value": ""
+          },
+          {
+            "lane": 7,
+            "value": ""
+          },
+          {
+            "lane": 8,
+            "value": ""
+          }
+        ]
+      },
+      {
+        "time": "8:15-9:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "9:00-9:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "9:45-10:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "10:30-11:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "11:15-12:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "12:00-12:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "12:45-13:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "13:30-14:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "14:15-15:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "15:00-15:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "MOKU PL."
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "MOKU PL."
+          }
+        ]
+      },
+      {
+        "time": "15:45-16:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "MOKU PL."
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "DOMINYKAS"
+          },
+          {
+            "lane": 8,
+            "value": "MOKU PL."
+          }
+        ]
+      },
+      {
+        "time": "16:30-17:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "MOKU PL."
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "DOMINYKAS"
+          },
+          {
+            "lane": 8,
+            "value": "MOKU PL."
+          }
+        ]
+      },
+      {
+        "time": "17:15-18:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "MOKU PL."
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "DOMINYKAS"
+          },
+          {
+            "lane": 8,
+            "value": "MOKU PL."
+          }
+        ]
+      },
+      {
+        "time": "18:00-18:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "MOKU PL."
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "LNSF"
+          },
+          {
+            "lane": 8,
+            "value": "MOKU PL."
+          }
+        ]
+      },
+      {
+        "time": "18:45-19:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "LNSF"
+          }
+        ]
+      },
+      {
+        "time": "19:30-20:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "LNSF"
+          }
+        ]
+      },
+      {
+        "time": "20:15-21:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "21:00-21:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": ""
+          },
+          {
+            "lane": 2,
+            "value": ""
+          },
+          {
+            "lane": 3,
+            "value": ""
+          },
+          {
+            "lane": 4,
+            "value": ""
+          },
+          {
+            "lane": 5,
+            "value": ""
+          },
+          {
+            "lane": 6,
+            "value": ""
+          },
+          {
+            "lane": 7,
+            "value": ""
+          },
+          {
+            "lane": 8,
+            "value": ""
+          }
         ]
       }
     ]
   }
 }
-``
