@@ -11,24 +11,15 @@ const LT_DAYS = [
 ];
 
 function updateClock() {
-
     const now = new Date();
 
-    const day =
-        LT_DAYS[now.getDay()];
-
-    const time =
-        now.toLocaleTimeString(
-            "lt-LT",
-            {
-                hour: "2-digit",
-                minute: "2-digit"
-            }
-        );
-
-    document.getElementById("clock")
-        .textContent =
-        `${day} ${time}`;
+    document.getElementById("clock").textContent =
+        LT_DAYS[now.getDay()] +
+        " " +
+        now.toLocaleTimeString("lt-LT", {
+            hour: "2-digit",
+            minute: "2-digit"
+        });
 }
 
 function getCategory(value) {
@@ -67,32 +58,25 @@ function renderLanes(containerId, lanes) {
     const container =
         document.getElementById(containerId);
 
-    if (!container) {
-        return;
-    }
+    if (!container) return;
 
     container.innerHTML = "";
 
-    lanes.forEach((lane) => {
+    lanes.forEach(function (lane) {
 
         const row =
             document.createElement("div");
 
         row.className =
             "lane " +
-            getCategory(
-                lane.value
-            );
+            getCategory(lane.value);
 
-        row.innerHTML = `
-            <span class="lane-number">
-                Takelis ${lane.lane}
-            </span>
-
-            <span>
-                ${lane.value}
-            </span>
-        `;
+        row.innerHTML =
+            '<span class="lane-number">Takelis ' +
+            lane.lane +
+            '</span><span>' +
+            lane.value +
+            '</span>';
 
         container.appendChild(row);
     });
@@ -100,42 +84,32 @@ function renderLanes(containerId, lanes) {
 
 function findCurrentIndex(dayData) {
 
-    const now =
-        new Date();
+    const now = new Date();
 
     const currentMinutes =
         now.getHours() * 60 +
         now.getMinutes();
 
-    for (
-        let i = 0;
-        i < dayData.length;
-        i++
-    ) {
+    for (let i = 0; i < dayData.length; i++) {
 
-        const slot =
-            dayData[i];
+        const slot = dayData[i];
 
         const parts =
             slot.time.split("-");
 
         const start =
-            parts[0];
+            parts[0].split(":");
 
         const end =
-            parts[1];
-
-        const [sh, sm] =
-            start.split(":").map(Number);
-
-        const [eh, em] =
-            end.split(":").map(Number);
+            parts[1].split(":");
 
         const from =
-            sh * 60 + sm;
+            Number(start[0]) * 60 +
+            Number(start[1]);
 
         const to =
-            eh * 60 + em;
+            Number(end[0]) * 60 +
+            Number(end[1]);
 
         if (
             currentMinutes >= from &&
@@ -150,86 +124,45 @@ function findCurrentIndex(dayData) {
 
 function render() {
 
-    if (!scheduleData) {
-        return;
-    }
+    if (!scheduleData) return;
 
     const dayName =
-        LT_DAYS[
-            new Date().getDay()
-        ];
+        LT_DAYS[new Date().getDay()];
 
-    const allDays =
-        Object.keys(
-            scheduleData.schedule
-        );
-
-    let dayData =
+    const dayData =
         scheduleData.schedule[dayName];
 
     if (!dayData) {
 
-        const fallback =
-            allDays.find(
-                day =>
-                    day.toLowerCase()
-                       .trim() ===
-                    dayName.toLowerCase()
-                           .trim()
-            );
-
-        if (fallback) {
-            dayData =
-                scheduleData.schedule[
-                    fallback
-                ];
-        }
-    }
-
-    if (!dayData) {
-
-        document
-            .getElementById(
-                "updated"
-            )
+        document.getElementById("updated")
             .textContent =
-            "Nerasta diena";
+            "Nerasta diena: " +
+            dayName;
 
         return;
     }
 
-    const currentIndex =
-        findCurrentIndex(
-            dayData
-        );
+    const idx =
+        findCurrentIndex(dayData);
 
     const previous =
-        currentIndex > 0
-            ? dayData[
-                currentIndex - 1
-              ]
+        idx > 0
+            ? dayData[idx - 1]
             : null;
 
     const current =
-        dayData[
-            currentIndex
-        ];
+        dayData[idx];
 
     const next =
-        currentIndex <
-        dayData.length - 1
-            ? dayData[
-                currentIndex + 1
-              ]
+        idx < dayData.length - 1
+            ? dayData[idx + 1]
             : null;
 
     if (previous) {
 
-        document
-            .getElementById(
-                "previousTimeSlot"
-            )
-            .textContent =
+        document.getElementById(
+            "previousTimeSlot"
+        ).textContent =
             previous.time;
 
         renderLanes(
@@ -240,11 +173,9 @@ function render() {
 
     if (current) {
 
-        document
-            .getElementById(
-                "currentTimeSlot"
-            )
-            .textContent =
+        document.getElementById(
+            "currentTimeSlot"
+        ).textContent =
             current.time;
 
         renderLanes(
@@ -255,11 +186,9 @@ function render() {
 
     if (next) {
 
-        document
-            .getElementById(
-                "nextTimeSlot"
-            )
-            .textContent =
+        document.getElementById(
+            "nextTimeSlot"
+        ).textContent =
             next.time;
 
         renderLanes(
@@ -268,11 +197,9 @@ function render() {
         );
     }
 
-    document
-        .getElementById(
-            "updated"
-        )
-        .textContent =
+    document.getElementById(
+        "updated"
+    ).textContent =
         scheduleData.updated;
 }
 
@@ -293,29 +220,17 @@ async function loadData() {
 
     } catch (error) {
 
-        console.error(
-            error
-        );
+        console.error(error);
 
-        document
-            .getElementById(
-                "updated"
-            )
-            .textContent =
+        document.getElementById(
+            "updated"
+        ).textContent =
             "JSON klaida";
     }
 }
 
 updateClock();
-
-setInterval(
-    updateClock,
-    1000
-);
+setInterval(updateClock, 1000);
 
 loadData();
-
-setInterval(
-    loadData,
-    60000
-);
+setInterval(loadData, 60000);
