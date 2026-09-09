@@ -11,7 +11,6 @@ const LT_DAYS = [
 ];
 
 function updateClock() {
-
     const now = new Date();
 
     const day = LT_DAYS[now.getDay()];
@@ -54,7 +53,7 @@ function getCategory(value) {
     if (
         value.includes("BTT") ||
         value.includes("ANTROKAI") ||
-        value.includes("TRE") ||
+        value.includes("TREČIOKAI") ||
         value.includes("MOKU") ||
         value.includes("Vandens")
     ) {
