@@ -181,94 +181,26 @@ function findDayData(dayName){
     return null;
 }
 
-function render(){
+function render() {
 
-    if(!scheduleData){
-        return;
-    }
-
-    const dayName =
-        LT_DAYS[
-            new Date().getDay()
-        ];
-
-    const dayData =
-        findDayData(dayName);
-
-    if(
-        !dayData ||
-        dayData.length === 0
-    ){
-        console.log(
-            "Nerasti dienos duomenys:",
-            dayName
-        );
-        return;
-    }
-
-    const idx =
-        findCurrentIndex(
-            dayData
-        );
-
-    const previous =
-        idx > 0
-            ? dayData[idx-1]
-            : null;
-
-    const current =
-        dayData[idx];
-
-    const next =
-        idx < dayData.length-1
-            ? dayData[idx+1]
-            : null;
-
-    if(previous){
-
-        document.getElementById(
-            "previousTimeSlot"
-        ).textContent =
-            previous.time;
-
-        renderLanes(
-            "previousLanes",
-            previous.lanes
-        );
-    }
-
-    if(current){
-
-        document.getElementById(
-            "currentTimeSlot"
-        ).textContent =
-            current.time;
-
-        renderLanes(
-            "currentLanes",
-            current.lanes
-        );
-    }
-
-    if(next){
-
-        document.getElementById(
-            "nextTimeSlot"
-        ).textContent =
-            next.time;
-
-        renderLanes(
-            "nextLanes",
-            next.lanes
-        );
-    }
+    document.getElementById("updated").textContent =
+        scheduleData.updated;
 
     document.getElementById(
-        "updated"
+        "previousTimeSlot"
     ).textContent =
-        scheduleData.updated;
-}
+        "OK";
 
+    document.getElementById(
+        "currentTimeSlot"
+    ).textContent =
+        "TESTAS VEIKIA";
+
+    document.getElementById(
+        "nextTimeSlot"
+    ).textContent =
+        "JSON KRAUNASI";
+}
 async function loadData(){
 
     try{
