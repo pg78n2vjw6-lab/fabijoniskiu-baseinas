@@ -168,13 +168,13 @@ async function loadData() {
                 "schedule.json?t=" +
                 Date.now()
             );
+scheduleData =
+    await response.json();
 
-        scheduleData =
-            await response.json();
+document.getElementById("updated").textContent =
+    "JSON OK";
 
-        console.log(scheduleData);
-
-        render();
+render();
 
     } catch (e) {
 
