@@ -104,6 +104,20 @@ section{
 }
 
 /* ==========================
+   DABAR BLOKO PARYŠKINIMAS
+========================== */
+
+.current-block{
+
+    background:#174d2f;
+
+    border:3px solid #5cff84;
+
+    box-shadow:
+        0 0 20px rgba(92,255,132,.35);
+}
+
+/* ==========================
    BLOKŲ PAVADINIMAI
 ========================== */
 
@@ -123,7 +137,7 @@ section{
 }
 
 .current{
-    color:#5cff84;
+    color:#ffffff;
 }
 
 .next{
