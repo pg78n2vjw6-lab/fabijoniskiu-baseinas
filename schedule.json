@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10 10:36",
+  "updated": "2026-09-28 15:18",
   "schedule": {
     "Pirmadienis": [
       {
@@ -574,7 +574,7 @@
           },
           {
             "lane": 4,
-            "value": "KLIENTAI"
+            "value": "Povilas Å P"
           },
           {
             "lane": 5,
@@ -652,11 +652,11 @@
           },
           {
             "lane": 5,
-            "value": "NEMUNAS"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Povilas Å P"
+            "value": "NEMUNAS"
           },
           {
             "lane": 7,
@@ -2960,7 +2960,7 @@
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Valia BR"
           },
           {
             "lane": 8,
