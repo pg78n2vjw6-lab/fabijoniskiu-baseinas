@@ -11,7 +11,6 @@ const LT_DAYS = [
 ];
 
 function updateClock() {
-
     const now = new Date();
 
     const day = LT_DAYS[now.getDay()];
@@ -41,7 +40,27 @@ function getCategory(value) {
         return "clients";
     }
 
-    return "club";
+    if (
+        value.includes("SSC") ||
+        value.includes("LNSF") ||
+        value.includes("VVF") ||
+        value.includes("NEMUNAS") ||
+        value.includes("DELFINAS")
+    ) {
+        return "club";
+    }
+
+    if (
+        value.includes("BTT") ||
+        value.includes("ANTROKAI") ||
+        value.includes("TREČIOKAI") ||
+        value.includes("MOKU") ||
+        value.includes("Vandens")
+    ) {
+        return "group";
+    }
+
+    return "coach";
 }
 
 function minutesNow() {
@@ -109,16 +128,14 @@ function renderLanes(id, lanes) {
 
         row.innerHTML = `
             <span class="lane-number">
-                ${lane.lane}
+                Takelis ${lane.lane}
             </span>
-
             <span>
                 ${lane.value}
             </span>
         `;
 
         el.appendChild(row);
-
     });
 }
 
@@ -132,19 +149,39 @@ function getTodaySchedule() {
     const today =
         new Date().getDay();
 
-    const map = {
-        1: 0,
-        2: 1,
-        3: 2,
-        4: 3,
-        5: 4,
-        6: 5,
-        0: 6
-    };
+    let key;
 
-    return scheduleData.schedule[
-        keys[map[today]]
-    ];
+    switch (today) {
+
+        case 1:
+            key = keys[0];
+            break;
+
+        case 2:
+            key = keys[1];
+            break;
+
+        case 3:
+            key = keys[2];
+            break;
+
+        case 4:
+            key = keys[3];
+            break;
+
+        case 5:
+            key = keys[4];
+            break;
+
+        case 6:
+            key = keys[5];
+            break;
+
+        default:
+            key = keys[6];
+    }
+
+    return scheduleData.schedule[key];
 }
 
 function render() {
@@ -253,7 +290,7 @@ async function loadData() {
         document.getElementById(
             "updated"
         ).textContent =
-            err.message;
+            "JSON klaida";
     }
 }
 
