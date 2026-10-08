@@ -283,15 +283,15 @@ async function loadData() {
         render();
 
     }
-    catch (err) {
+catch (err) {
 
-        console.error(err);
+    console.error(err);
 
-        document.getElementById(
-            "updated"
-        ).textContent =
-            "JSON klaida";
-    }
+    document.getElementById(
+        "updated"
+    ).textContent =
+        err.message;
+}
 }
 
 updateClock();
