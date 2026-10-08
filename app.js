@@ -11,6 +11,7 @@ const LT_DAYS = [
 ];
 
 function updateClock() {
+
     const now = new Date();
 
     const day = LT_DAYS[now.getDay()];
@@ -23,12 +24,10 @@ function updateClock() {
         }
     );
 
-    const clock =
-        document.getElementById("clock");
+    const clock = document.getElementById("clock");
 
     if (clock) {
-        clock.textContent =
-            `${day} ${time}`;
+        clock.textContent = `${day} ${time}`;
     }
 }
 
@@ -75,8 +74,7 @@ function minutesNow() {
 
 function findCurrentIndex(slots) {
 
-    const now =
-        minutesNow();
+    const now = minutesNow();
 
     for (let i = 0; i < slots.length; i++) {
 
@@ -128,8 +126,9 @@ function renderLanes(id, lanes) {
 
         row.innerHTML = `
             <span class="lane-number">
-                Takelis ${lane.lane}
+                ${lane.lane}
             </span>
+
             <span>
                 ${lane.value}
             </span>
@@ -282,16 +281,15 @@ async function loadData() {
 
         render();
 
+    } catch (err) {
+
+        console.error(err);
+
+        document.getElementById(
+            "updated"
+        ).textContent =
+            err.message;
     }
-catch (err) {
-
-    console.error(err);
-
-    document.getElementById(
-        "updated"
-    ).textContent =
-        err.message;
-}
 }
 
 updateClock();
