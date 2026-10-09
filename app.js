@@ -1,5 +1,8 @@
 let scheduleData = null;
 
+const SCHEDULE_URL =
+    "https://pg78n2vjw6-lab.github.io/fabijoniskiu-baseinas/schedule.json";
+
 const LT_DAYS = [
     "Sekmadienis",
     "Pirmadienis",
@@ -11,7 +14,6 @@ const LT_DAYS = [
 ];
 
 function updateClock() {
-
     const now = new Date();
 
     const day = LT_DAYS[now.getDay()];
@@ -27,204 +29,284 @@ function updateClock() {
     const clock = document.getElementById("clock");
 
     if (clock) {
-        clock.textContent = `${day} ${time}`;
+        clock.textContent = day + " " + time;
     }
 }
 
 function getCategory(value) {
+    const normalizedValue =
+        String(value || "").trim().toUpperCase();
 
-    value = value || "";
-
-    if (value === "KLIENTAI") {
+    if (normalizedValue === "KLIENTAI") {
         return "clients";
     }
 
-    if (
-        value.includes("SSC") ||
-        value.includes("LNSF") ||
-        value.includes("VVF") ||
-        value.includes("NEMUNAS") ||
-        value.includes("DELFINAS")
-    ) {
-        return "club";
-    }
-
-    if (
-        value.includes("BTT") ||
-        value.includes("ANTROKAI") ||
-        value.includes("TREČIOKAI") ||
-        value.includes("MOKU") ||
-        value.includes("Vandens")
-    ) {
-        return "group";
-    }
-
-    return "coach";
+    return "busy";
 }
 
 function minutesNow() {
-
     const now = new Date();
 
-    return (
-        now.getHours() * 60 +
-        now.getMinutes()
-    );
+    return now.getHours() * 60 + now.getMinutes();
+}
+
+function timeToMinutes(value) {
+    const parts =
+        String(value).trim().split(":");
+
+    if (parts.length !== 2) {
+        return null;
+    }
+
+    const hours = Number(parts[0]);
+    const minutes = Number(parts[1]);
+
+    if (
+        !Number.isFinite(hours) ||
+        !Number.isFinite(minutes)
+    ) {
+        return null;
+    }
+
+    return hours * 60 + minutes;
 }
 
 function findCurrentIndex(slots) {
-
-    const now = minutesNow();
+    const currentMinutes = minutesNow();
 
     for (let i = 0; i < slots.length; i++) {
+        const interval =
+            String(slots[i].time || "")
+                .trim()
+                .replace("–", "-")
+                .replace("—", "-");
 
-        const time = String(slots[i].time || "");
+        const intervalParts = interval.split("-");
 
-        if (!time.includes("-")) {
+        if (intervalParts.length !== 2) {
             continue;
         }
 
-        const [start, end] = time.split("-");
+        const startMinutes =
+            timeToMinutes(intervalParts[0]);
 
-        const [sh, sm] =
-            start.split(":").map(Number);
-
-        const [eh, em] =
-            end.split(":").map(Number);
-
-        const startMin =
-            sh * 60 + sm;
-
-        const endMin =
-            eh * 60 + em;
+        const endMinutes =
+            timeToMinutes(intervalParts[1]);
 
         if (
-            now >= startMin &&
-            now < endMin
+            startMinutes === null ||
+            endMinutes === null
+        ) {
+            continue;
+        }
+
+        if (
+            currentMinutes >= startMinutes &&
+            currentMinutes < endMinutes
         ) {
             return i;
         }
     }
 
-    return 0;
+    if (slots.length === 0) {
+        return -1;
+    }
+
+    const firstInterval =
+        String(slots[0].time || "")
+            .replace("–", "-")
+            .replace("—", "-")
+            .split("-");
+
+    const firstStart =
+        firstInterval.length === 2
+            ? timeToMinutes(firstInterval[0])
+            : null;
+
+    if (
+        firstStart !== null &&
+        currentMinutes < firstStart
+    ) {
+        return 0;
+    }
+
+    return slots.length - 1;
 }
 
-function renderLanes(id, lanes) {
+function clearBlock(timeId, lanesId) {
+    const timeElement =
+        document.getElementById(timeId);
 
-    const el = document.getElementById(id);
+    const lanesElement =
+        document.getElementById(lanesId);
 
-    if (!el || !lanes) {
+    if (timeElement) {
+        timeElement.textContent = "-";
+    }
+
+    if (lanesElement) {
+        lanesElement.innerHTML = "";
+    }
+}
+
+function renderLanes(elementId, lanes) {
+    const element =
+        document.getElementById(elementId);
+
+    if (!element) {
         return;
     }
 
-    el.innerHTML = "";
+    element.innerHTML = "";
 
-    lanes.forEach(lane => {
+    if (!Array.isArray(lanes)) {
+        return;
+    }
 
+    lanes.forEach(function (lane) {
         const row =
             document.createElement("div");
 
         row.className =
-            "lane " +
-            getCategory(lane.value);
+            "lane " + getCategory(lane.value);
 
-        row.innerHTML = `
-            <span class="lane-number">
-                ${lane.lane}
-            </span>
+        const laneNumber =
+            document.createElement("span");
 
-            <span>
-                ${lane.value}
-            </span>
-        `;
+        laneNumber.className = "lane-number";
+        laneNumber.textContent =
+            "Takelis " + lane.lane;
 
-        el.appendChild(row);
+        const laneValue =
+            document.createElement("span");
+
+        laneValue.textContent =
+            String(lane.value || "");
+
+        row.appendChild(laneNumber);
+        row.appendChild(laneValue);
+        element.appendChild(row);
     });
 }
 
 function getTodaySchedule() {
+    if (
+        !scheduleData ||
+        !scheduleData.schedule
+    ) {
+        return null;
+    }
 
     const keys =
         Object.keys(scheduleData.schedule);
 
-    const today =
-        new Date().getDay();
-
-    let key;
-
-    switch (today) {
-
-        case 1:
-            key = keys[0];
-            break;
-
-        case 2:
-            key = keys[1];
-            break;
-
-        case 3:
-            key = keys[2];
-            break;
-
-        case 4:
-            key = keys[3];
-            break;
-
-        case 5:
-            key = keys[4];
-            break;
-
-        case 6:
-            key = keys[5];
-            break;
-
-        default:
-            key = keys[6];
+    if (keys.length < 7) {
+        return null;
     }
 
-    return scheduleData.schedule[key];
+    const dayIndexMap = {
+        1: 0,
+        2: 1,
+        3: 2,
+        4: 3,
+        5: 4,
+        6: 5,
+        0: 6
+    };
+
+    const currentDay =
+        new Date().getDay();
+
+    const scheduleIndex =
+        dayIndexMap[currentDay];
+
+    const scheduleKey =
+        keys[scheduleIndex];
+
+    return scheduleData.schedule[scheduleKey];
 }
 
 function render() {
+    const updatedElement =
+        document.getElementById("updated");
 
-    if (!scheduleData) {
-        return;
-    }
-
-    const dayData = getTodaySchedule();
-
-    if (!dayData || dayData.length === 0) {
-
-        document.getElementById(
-            "updated"
-        ).textContent =
-            "Nerasta diena";
+    if (
+        !scheduleData ||
+        !scheduleData.schedule
+    ) {
+        if (updatedElement) {
+            updatedElement.textContent =
+                "Nėra tvarkaraščio duomenų";
+        }
 
         return;
     }
 
-    const idx =
+    const dayData =
+        getTodaySchedule();
+
+    if (
+        !Array.isArray(dayData) ||
+        dayData.length === 0
+    ) {
+        if (updatedElement) {
+            updatedElement.textContent =
+                "Nerasti šios dienos duomenys";
+        }
+
+        return;
+    }
+
+    const currentIndex =
         findCurrentIndex(dayData);
 
+    if (currentIndex < 0) {
+        if (updatedElement) {
+            updatedElement.textContent =
+                "Nerasti laiko intervalai";
+        }
+
+        return;
+    }
+
     const previous =
-        idx > 0
-            ? dayData[idx - 1]
+        currentIndex > 0
+            ? dayData[currentIndex - 1]
             : null;
 
     const current =
-        dayData[idx];
+        dayData[currentIndex] || null;
 
     const next =
-        idx < dayData.length - 1
-            ? dayData[idx + 1]
+        currentIndex < dayData.length - 1
+            ? dayData[currentIndex + 1]
             : null;
 
-    if (previous) {
+    clearBlock(
+        "previousTimeSlot",
+        "previousLanes"
+    );
 
-        document.getElementById(
-            "previousTimeSlot"
-        ).textContent =
-            previous.time;
+    clearBlock(
+        "currentTimeSlot",
+        "currentLanes"
+    );
+
+    clearBlock(
+        "nextTimeSlot",
+        "nextLanes"
+    );
+
+    if (previous) {
+        const previousTime =
+            document.getElementById(
+                "previousTimeSlot"
+            );
+
+        if (previousTime) {
+            previousTime.textContent =
+                previous.time;
+        }
 
         renderLanes(
             "previousLanes",
@@ -233,11 +315,15 @@ function render() {
     }
 
     if (current) {
+        const currentTime =
+            document.getElementById(
+                "currentTimeSlot"
+            );
 
-        document.getElementById(
-            "currentTimeSlot"
-        ).textContent =
-            current.time;
+        if (currentTime) {
+            currentTime.textContent =
+                current.time;
+        }
 
         renderLanes(
             "currentLanes",
@@ -246,11 +332,15 @@ function render() {
     }
 
     if (next) {
+        const nextTime =
+            document.getElementById(
+                "nextTimeSlot"
+            );
 
-        document.getElementById(
-            "nextTimeSlot"
-        ).textContent =
-            next.time;
+        if (nextTime) {
+            nextTime.textContent =
+                next.time;
+        }
 
         renderLanes(
             "nextLanes",
@@ -258,42 +348,51 @@ function render() {
         );
     }
 
-    document.getElementById(
-        "updated"
-    ).textContent =
-        scheduleData.updated;
+    if (updatedElement) {
+        updatedElement.textContent =
+            scheduleData.updated || "-";
+    }
 }
 
 async function loadData() {
+    const updatedElement =
+        document.getElementById("updated");
 
     try {
-
-        const response = await fetch(
-            "schedule.json?t=" +
-            Date.now()
-        );
+        const response =
+            await fetch(
+                SCHEDULE_URL,
+                {
+                    method: "GET",
+                    cache: "no-store"
+                }
+            );
 
         if (!response.ok) {
             throw new Error(
-                `HTTP ${response.status}`
+                "HTTP klaida " + response.status
             );
         }
 
+        const responseText =
+            await response.text();
+
         scheduleData =
-            await response.json();
+            JSON.parse(responseText);
 
         render();
-
     }
-    catch (err) {
+    catch (error) {
+        console.error(error);
 
-        console.error(err);
-
-        document.getElementById(
-            "updated"
-        ).textContent =
-            "KLAIDA: " +
-            (err.message || String(err));
+        if (updatedElement) {
+            updatedElement.textContent =
+                "KLAIDA: " +
+                (
+                    error.message ||
+                    String(error)
+                );
+        }
     }
 }
 
