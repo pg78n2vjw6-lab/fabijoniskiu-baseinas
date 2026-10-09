@@ -78,8 +78,13 @@ function findCurrentIndex(slots) {
 
     for (let i = 0; i < slots.length; i++) {
 
-        const [start, end] =
-            slots[i].time.split("-");
+        const time = String(slots[i].time || "");
+
+        if (!time.includes("-")) {
+            continue;
+        }
+
+        const [start, end] = time.split("-");
 
         const [sh, sm] =
             start.split(":").map(Number);
@@ -106,8 +111,7 @@ function findCurrentIndex(slots) {
 
 function renderLanes(id, lanes) {
 
-    const el =
-        document.getElementById(id);
+    const el = document.getElementById(id);
 
     if (!el || !lanes) {
         return;
@@ -141,9 +145,7 @@ function renderLanes(id, lanes) {
 function getTodaySchedule() {
 
     const keys =
-        Object.keys(
-            scheduleData.schedule
-        );
+        Object.keys(scheduleData.schedule);
 
     const today =
         new Date().getDay();
@@ -189,13 +191,9 @@ function render() {
         return;
     }
 
-    const dayData =
-        getTodaySchedule();
+    const dayData = getTodaySchedule();
 
-    if (
-        !dayData ||
-        dayData.length === 0
-    ) {
+    if (!dayData || dayData.length === 0) {
 
         document.getElementById(
             "updated"
@@ -270,25 +268,32 @@ async function loadData() {
 
     try {
 
-        const response =
-            await fetch(
-                "schedule.json?t=" +
-                Date.now()
+        const response = await fetch(
+            "schedule.json?t=" +
+            Date.now()
+        );
+
+        if (!response.ok) {
+            throw new Error(
+                `HTTP ${response.status}`
             );
+        }
 
         scheduleData =
             await response.json();
 
         render();
 
-    } catch (err) {
+    }
+    catch (err) {
 
         console.error(err);
 
         document.getElementById(
             "updated"
         ).textContent =
-            err.message;
+            "KLAIDA: " +
+            (err.message || String(err));
     }
 }
 
