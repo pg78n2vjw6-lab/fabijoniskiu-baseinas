@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08 16:14",
+  "updated": "2026-11-02 00:12",
   "schedule": {
     "Pirmadienis": [
       {
@@ -7,35 +7,35 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 2,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 3,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 4,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 5,
-            "value": "Povilas Å P"
+            "value": ""
           },
           {
             "lane": 6,
-            "value": "BTT"
+            "value": ""
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": ""
           }
         ]
       },
@@ -44,35 +44,35 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 2,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 3,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 4,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 5,
-            "value": "Povilas Å P"
+            "value": ""
           },
           {
             "lane": 6,
-            "value": "BTT"
+            "value": ""
           },
           {
             "lane": 7,
-            "value": "SSC FAG S"
+            "value": ""
           },
           {
             "lane": 8,
-            "value": "SSC FAG S"
+            "value": ""
           }
         ]
       },
@@ -81,35 +81,35 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 2,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 3,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 4,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 6,
-            "value": "BTT"
+            "value": ""
           },
           {
             "lane": 7,
-            "value": "SSC FAG S"
+            "value": ""
           },
           {
             "lane": 8,
-            "value": "SSC FAG S"
+            "value": ""
           }
         ]
       },
@@ -118,7 +118,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -134,19 +134,19 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "BTT"
           },
           {
             "lane": 6,
-            "value": "SSC FAG S"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "SSC FAG S"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -155,7 +155,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -171,7 +171,7 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "BTT"
           },
           {
             "lane": 6,
@@ -183,7 +183,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -192,7 +192,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -208,7 +208,7 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "BTT"
           },
           {
             "lane": 6,
@@ -220,7 +220,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -229,7 +229,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -257,7 +257,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -266,7 +266,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -294,7 +294,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -303,7 +303,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -331,7 +331,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -340,7 +340,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -368,7 +368,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -434,15 +434,15 @@
           },
           {
             "lane": 6,
-            "value": "GraÅ¾ina BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "SSC FAG V"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -467,19 +467,19 @@
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina SR-C"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Anastasija SR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "SSC FAG V"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -504,19 +504,19 @@
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina SR-C"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Anastasija SR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "SSC FAG V"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -537,23 +537,23 @@
           },
           {
             "lane": 4,
-            "value": "DELFINAS"
+            "value": "KLIENTAI"
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Anastasija SR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "SSC FAG V"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -574,23 +574,23 @@
           },
           {
             "lane": 4,
-            "value": "Povilas Å P"
+            "value": "KLIENTAI"
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Anastasija SR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "SSC FAG V"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -615,19 +615,19 @@
           },
           {
             "lane": 5,
-            "value": "Povilas Å P"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Valia pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Tadas"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "SSC FAG V"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -656,15 +656,15 @@
           },
           {
             "lane": 6,
-            "value": "NEMUNAS"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "Tadas"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -689,19 +689,19 @@
           },
           {
             "lane": 5,
-            "value": "NEMUNAS"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Valia pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Tadas"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "Tadas"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -726,19 +726,19 @@
           },
           {
             "lane": 5,
-            "value": "Vandensv"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Vandensv"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Vandensv"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "Vandensv"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -747,35 +747,35 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 2,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 3,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 4,
-            "value": "KLIENTAI"
+            "value": ""
           },
           {
             "lane": 5,
-            "value": "Vandensv"
+            "value": ""
           },
           {
             "lane": 6,
-            "value": "Vandensv"
+            "value": ""
           },
           {
             "lane": 7,
-            "value": "Vandensv"
+            "value": ""
           },
           {
             "lane": 8,
-            "value": "Vandensv"
+            "value": ""
           }
         ]
       }
@@ -802,7 +802,7 @@
           },
           {
             "lane": 5,
-            "value": "Oksana SR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
@@ -839,7 +839,7 @@
           },
           {
             "lane": 5,
-            "value": "Oksana SR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
@@ -897,7 +897,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -913,7 +913,7 @@
           },
           {
             "lane": 5,
-            "value": "SSC FAG S"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
@@ -925,7 +925,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "SSC FAG S"
           }
         ]
       },
@@ -934,7 +934,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -962,7 +962,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "DAILUSIS"
           }
         ]
       },
@@ -971,7 +971,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -987,19 +987,19 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Oksana/GraÅ¾ina"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Oksana/GraÅ¾ina"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Oksana/GraÅ¾ina"
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "DAILUSIS"
           }
         ]
       },
@@ -1008,7 +1008,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -1024,19 +1024,19 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Oksana/GraÅ¾ina"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Oksana/GraÅ¾ina"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Oksana/GraÅ¾ina"
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "DAILUSIS"
           }
         ]
       },
@@ -1045,7 +1045,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -1061,19 +1061,19 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Valia"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "GraÅ¾ina"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "Liza BR"
           }
         ]
       },
@@ -1082,7 +1082,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -1098,19 +1098,19 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Valia"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "GraÅ¾ina"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "Liza BR"
           }
         ]
       },
@@ -1119,7 +1119,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -1135,19 +1135,19 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Valia"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "GraÅ¾ina"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "Liza BR"
           }
         ]
       },
@@ -1172,19 +1172,19 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Valia"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "GraÅ¾ina"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           }
         ]
       },
@@ -1217,7 +1217,7 @@
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -1246,15 +1246,15 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Michailas"
           },
           {
             "lane": 6,
-            "value": "Anastasija SR"
+            "value": "Michailas"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "Ala"
           },
           {
             "lane": 8,
@@ -1283,15 +1283,15 @@
           },
           {
             "lane": 5,
-            "value": "Oksana SR-B"
+            "value": "Michailas"
           },
           {
             "lane": 6,
-            "value": "Anastasija SR"
+            "value": "Michailas"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "Ala"
           },
           {
             "lane": 8,
@@ -1320,15 +1320,15 @@
           },
           {
             "lane": 5,
-            "value": "Oksana SR-B"
+            "value": "Michailas"
           },
           {
             "lane": 6,
-            "value": "Anastasija SR"
+            "value": "Michailas"
           },
           {
             "lane": 7,
-            "value": "Liza BR"
+            "value": "Ala"
           },
           {
             "lane": 8,
@@ -1357,15 +1357,15 @@
           },
           {
             "lane": 5,
-            "value": "Oksana SR-B"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Valia BR"
+            "value": "Renata"
           },
           {
             "lane": 7,
-            "value": "Liza BR"
+            "value": "Renata"
           },
           {
             "lane": 8,
@@ -1394,15 +1394,15 @@
           },
           {
             "lane": 5,
-            "value": "Oksana SR-A"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Valia BR"
+            "value": "Renata"
           },
           {
             "lane": 7,
-            "value": "Liza pp"
+            "value": "Renata"
           },
           {
             "lane": 8,
@@ -1427,19 +1427,19 @@
           },
           {
             "lane": 4,
-            "value": "KLIENTAI"
+            "value": "DAILUSIS"
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
             "value": "BTT"
           },
           {
+            "lane": 6,
+            "value": "Renata"
+          },
+          {
             "lane": 7,
-            "value": "Liza pp"
+            "value": "Renata"
           },
           {
             "lane": 8,
@@ -1472,7 +1472,7 @@
           },
           {
             "lane": 6,
-            "value": "Liza pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
@@ -1676,7 +1676,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -1696,7 +1696,7 @@
           },
           {
             "lane": 6,
-            "value": "SSC FAG S"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
@@ -1704,7 +1704,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "SSC FAG S"
           }
         ]
       },
@@ -1713,7 +1713,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -1741,7 +1741,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "DAILUSIS"
           }
         ]
       },
@@ -1750,7 +1750,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -1778,7 +1778,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "DAILUSIS"
           }
         ]
       },
@@ -1787,7 +1787,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -1815,7 +1815,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "DAILUSIS"
           }
         ]
       },
@@ -1824,7 +1824,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -1848,11 +1848,11 @@
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "Liza BR"
           }
         ]
       },
@@ -1861,7 +1861,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -1885,11 +1885,11 @@
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "Liza BR"
           }
         ]
       },
@@ -1898,7 +1898,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -1922,11 +1922,11 @@
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "Liza BR"
           }
         ]
       },
@@ -1959,11 +1959,11 @@
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           }
         ]
       },
@@ -1992,11 +1992,11 @@
           },
           {
             "lane": 6,
-            "value": "GraÅ¾ina BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -2025,15 +2025,15 @@
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina SR-C"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Anastasija SR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -2099,15 +2099,15 @@
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Anastasija SR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Liza BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -2173,15 +2173,15 @@
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Valia pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Liza pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -2214,11 +2214,11 @@
           },
           {
             "lane": 6,
-            "value": "Valia pp"
+            "value": "DAILUSIS"
           },
           {
             "lane": 7,
-            "value": "Liza pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -2247,11 +2247,11 @@
           },
           {
             "lane": 5,
-            "value": "Valia pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Liza pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
@@ -2360,7 +2360,7 @@
           },
           {
             "lane": 5,
-            "value": "Oksana SR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
@@ -2397,7 +2397,7 @@
           },
           {
             "lane": 5,
-            "value": "Oksana SR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
@@ -2455,7 +2455,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -2471,7 +2471,7 @@
           },
           {
             "lane": 5,
-            "value": "SSC FAG S"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
@@ -2483,7 +2483,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "SSC FAG S"
           }
         ]
       },
@@ -2492,7 +2492,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -2520,7 +2520,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "DAILUSIS"
           }
         ]
       },
@@ -2529,7 +2529,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -2557,7 +2557,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "DAILUSIS"
           }
         ]
       },
@@ -2566,7 +2566,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -2594,7 +2594,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "DAILUSIS"
           }
         ]
       },
@@ -2603,7 +2603,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -2631,7 +2631,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -2640,7 +2640,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -2668,7 +2668,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -2677,7 +2677,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -2705,7 +2705,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -2771,11 +2771,11 @@
           },
           {
             "lane": 6,
-            "value": "GraÅ¾ina BR-1"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -2804,15 +2804,15 @@
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina BR-1"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -2841,15 +2841,15 @@
           },
           {
             "lane": 5,
-            "value": "Oksana SR-B"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "GraÅ¾ina SR-C"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -2878,15 +2878,15 @@
           },
           {
             "lane": 5,
-            "value": "Oksana SR-B"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "GraÅ¾ina SR-C"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -2915,15 +2915,15 @@
           },
           {
             "lane": 5,
-            "value": "Oksana SR-B"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "GraÅ¾ina SR-C"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -2952,15 +2952,15 @@
           },
           {
             "lane": 5,
-            "value": "Oksana SR-A"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -2993,15 +2993,15 @@
           },
           {
             "lane": 6,
-            "value": "DELFINAS"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Valia pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "Valia pp"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -3234,7 +3234,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -3250,7 +3250,7 @@
           },
           {
             "lane": 5,
-            "value": "SSC FAG S"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
@@ -3262,7 +3262,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "SSC FAG S"
           }
         ]
       },
@@ -3271,7 +3271,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -3299,7 +3299,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -3308,7 +3308,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -3336,7 +3336,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -3345,7 +3345,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -3373,7 +3373,7 @@
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -3382,7 +3382,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -3406,11 +3406,11 @@
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "Liza BR"
           }
         ]
       },
@@ -3419,7 +3419,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -3443,11 +3443,11 @@
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "Liza BR"
           }
         ]
       },
@@ -3456,7 +3456,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "ANTROKAI"
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -3480,11 +3480,11 @@
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
-            "value": "ANTROKAI"
+            "value": "Liza BR"
           }
         ]
       },
@@ -3509,11 +3509,11 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 7,
@@ -3550,7 +3550,7 @@
           },
           {
             "lane": 6,
-            "value": "GraÅ¾ina BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
@@ -3583,11 +3583,11 @@
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina SR-C"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Oksana SR-B"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
@@ -3620,15 +3620,15 @@
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina SR-C"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Oksana SR-B"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Liza BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -3657,15 +3657,15 @@
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Oksana SR-A"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Liza BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -3694,15 +3694,15 @@
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Oksana SR-A"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Liza pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -3731,15 +3731,15 @@
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Oksana SR-A"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "Liza pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
@@ -3776,11 +3776,11 @@
           },
           {
             "lane": 7,
-            "value": "Liza pp"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "Vandensv"
+            "value": "Tadas"
           }
         ]
       },
@@ -3813,11 +3813,11 @@
           },
           {
             "lane": 7,
-            "value": "Vandensv"
+            "value": "Tadas"
           },
           {
             "lane": 8,
-            "value": "Vandensv"
+            "value": "Tadas"
           }
         ]
       },
