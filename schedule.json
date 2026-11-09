@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02 00:12",
+  "updated": "2026-11-09 11:51",
   "schedule": {
     "Pirmadienis": [
       {
@@ -7,35 +7,35 @@
         "lanes": [
           {
             "lane": 1,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 3,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 4,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 5,
-            "value": ""
+            "value": "Povilas ŠP"
           },
           {
             "lane": 6,
-            "value": ""
+            "value": "BTT"
           },
           {
             "lane": 7,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": ""
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -44,35 +44,35 @@
         "lanes": [
           {
             "lane": 1,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 3,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 4,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 5,
-            "value": ""
+            "value": "Povilas ŠP"
           },
           {
             "lane": 6,
-            "value": ""
+            "value": "BTT"
           },
           {
             "lane": 7,
-            "value": ""
+            "value": "SSC FAG S"
           },
           {
             "lane": 8,
-            "value": ""
+            "value": "SSC FAG S"
           }
         ]
       },
@@ -81,35 +81,35 @@
         "lanes": [
           {
             "lane": 1,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 3,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 4,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 5,
-            "value": ""
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": ""
+            "value": "BTT"
           },
           {
             "lane": 7,
-            "value": ""
+            "value": "SSC FAG S"
           },
           {
             "lane": 8,
-            "value": ""
+            "value": "SSC FAG S"
           }
         ]
       },
@@ -118,7 +118,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -134,19 +134,19 @@
           },
           {
             "lane": 5,
-            "value": "BTT"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "SSC FAG S"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "SSC FAG S"
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -155,7 +155,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -171,7 +171,7 @@
           },
           {
             "lane": 5,
-            "value": "BTT"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
@@ -183,7 +183,7 @@
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -192,7 +192,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -208,7 +208,7 @@
           },
           {
             "lane": 5,
-            "value": "BTT"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
@@ -220,7 +220,7 @@
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -229,7 +229,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -257,7 +257,7 @@
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -266,7 +266,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -294,7 +294,7 @@
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -303,7 +303,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -331,7 +331,7 @@
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -340,7 +340,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -368,7 +368,7 @@
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -434,790 +434,11 @@
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Gražina BR"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "KLIENTAI"
-          }
-        ]
-      },
-      {
-        "time": "15:00-15:45",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "KLIENTAI"
-          }
-        ]
-      },
-      {
-        "time": "15:45-16:30",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "KLIENTAI"
-          }
-        ]
-      },
-      {
-        "time": "16:30-17:15",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "KLIENTAI"
-          }
-        ]
-      },
-      {
-        "time": "17:15-18:00",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "KLIENTAI"
-          }
-        ]
-      },
-      {
-        "time": "18:00-18:45",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "KLIENTAI"
-          }
-        ]
-      },
-      {
-        "time": "18:45-19:30",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "KLIENTAI"
-          }
-        ]
-      },
-      {
-        "time": "19:30-20:15",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "KLIENTAI"
-          }
-        ]
-      },
-      {
-        "time": "20:15-21:00",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "KLIENTAI"
-          }
-        ]
-      },
-      {
-        "time": "21:00-21:45",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": ""
-          },
-          {
-            "lane": 2,
-            "value": ""
-          },
-          {
-            "lane": 3,
-            "value": ""
-          },
-          {
-            "lane": 4,
-            "value": ""
-          },
-          {
-            "lane": 5,
-            "value": ""
-          },
-          {
-            "lane": 6,
-            "value": ""
-          },
-          {
-            "lane": 7,
-            "value": ""
-          },
-          {
-            "lane": 8,
-            "value": ""
-          }
-        ]
-      }
-    ],
-    "Antradienis": [
-      {
-        "time": "6:00-6:45",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "KLIENTAI"
-          }
-        ]
-      },
-      {
-        "time": "6:45-7:30",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "SSC FAG S"
-          },
-          {
-            "lane": 7,
-            "value": "SSC FAG S"
-          },
-          {
-            "lane": 8,
-            "value": "SSC FAG S"
-          }
-        ]
-      },
-      {
-        "time": "7:30-8:15",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "SSC FAG S"
-          },
-          {
-            "lane": 7,
-            "value": "SSC FAG S"
-          },
-          {
-            "lane": 8,
-            "value": "SSC FAG S"
-          }
-        ]
-      },
-      {
-        "time": "8:15-9:00",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "SSC FAG S"
-          },
-          {
-            "lane": 7,
-            "value": "SSC FAG S"
-          },
-          {
-            "lane": 8,
-            "value": "SSC FAG S"
-          }
-        ]
-      },
-      {
-        "time": "9:00-9:45",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "DAILUSIS"
-          }
-        ]
-      },
-      {
-        "time": "9:45-10:30",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "Oksana/GraÅ¾ina"
-          },
-          {
-            "lane": 6,
-            "value": "Oksana/GraÅ¾ina"
-          },
-          {
-            "lane": 7,
-            "value": "Oksana/GraÅ¾ina"
-          },
-          {
-            "lane": 8,
-            "value": "DAILUSIS"
-          }
-        ]
-      },
-      {
-        "time": "10:30-11:15",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "Oksana/GraÅ¾ina"
-          },
-          {
-            "lane": 6,
-            "value": "Oksana/GraÅ¾ina"
-          },
-          {
-            "lane": 7,
-            "value": "Oksana/GraÅ¾ina"
-          },
-          {
-            "lane": 8,
-            "value": "DAILUSIS"
-          }
-        ]
-      },
-      {
-        "time": "11:15-12:00",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "Valia"
-          },
-          {
-            "lane": 6,
-            "value": "GraÅ¾ina"
-          },
-          {
-            "lane": 7,
-            "value": "Liza BR"
-          },
-          {
-            "lane": 8,
-            "value": "Liza BR"
-          }
-        ]
-      },
-      {
-        "time": "12:00-12:45",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "Valia"
-          },
-          {
-            "lane": 6,
-            "value": "GraÅ¾ina"
-          },
-          {
-            "lane": 7,
-            "value": "Liza BR"
-          },
-          {
-            "lane": 8,
-            "value": "Liza BR"
-          }
-        ]
-      },
-      {
-        "time": "12:45-13:30",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "Valia"
-          },
-          {
-            "lane": 6,
-            "value": "GraÅ¾ina"
-          },
-          {
-            "lane": 7,
-            "value": "Liza BR"
-          },
-          {
-            "lane": 8,
-            "value": "Liza BR"
-          }
-        ]
-      },
-      {
-        "time": "13:30-14:15",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "Valia"
-          },
-          {
-            "lane": 6,
-            "value": "GraÅ¾ina"
-          },
-          {
-            "lane": 7,
-            "value": "Liza BR"
-          },
-          {
-            "lane": 8,
-            "value": "Liza BR"
-          }
-        ]
-      },
-      {
-        "time": "14:15-15:00",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Valia BR"
           },
           {
             "lane": 8,
@@ -1246,15 +467,15 @@
           },
           {
             "lane": 5,
-            "value": "Michailas"
+            "value": "Gražina SR-C"
           },
           {
             "lane": 6,
-            "value": "Michailas"
+            "value": "Anastasija SR"
           },
           {
             "lane": 7,
-            "value": "Ala"
+            "value": "Valia BR"
           },
           {
             "lane": 8,
@@ -1283,786 +504,7 @@
           },
           {
             "lane": 5,
-            "value": "Michailas"
-          },
-          {
-            "lane": 6,
-            "value": "Michailas"
-          },
-          {
-            "lane": 7,
-            "value": "Ala"
-          },
-          {
-            "lane": 8,
-            "value": "SSC FAG V"
-          }
-        ]
-      },
-      {
-        "time": "16:30-17:15",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "DELFINAS"
-          },
-          {
-            "lane": 5,
-            "value": "Michailas"
-          },
-          {
-            "lane": 6,
-            "value": "Michailas"
-          },
-          {
-            "lane": 7,
-            "value": "Ala"
-          },
-          {
-            "lane": 8,
-            "value": "SSC FAG V"
-          }
-        ]
-      },
-      {
-        "time": "17:15-18:00",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "NEMUNAS"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "Renata"
-          },
-          {
-            "lane": 7,
-            "value": "Renata"
-          },
-          {
-            "lane": 8,
-            "value": "SSC FAG V"
-          }
-        ]
-      },
-      {
-        "time": "18:00-18:45",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "NEMUNAS"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "Renata"
-          },
-          {
-            "lane": 7,
-            "value": "Renata"
-          },
-          {
-            "lane": 8,
-            "value": "SSC FAG V"
-          }
-        ]
-      },
-      {
-        "time": "18:45-19:30",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "DAILUSIS"
-          },
-          {
-            "lane": 5,
-            "value": "BTT"
-          },
-          {
-            "lane": 6,
-            "value": "Renata"
-          },
-          {
-            "lane": 7,
-            "value": "Renata"
-          },
-          {
-            "lane": 8,
-            "value": "Tadas"
-          }
-        ]
-      },
-      {
-        "time": "19:30-20:15",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "BTT"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "Tadas"
-          },
-          {
-            "lane": 8,
-            "value": "Tadas"
-          }
-        ]
-      },
-      {
-        "time": "20:15-21:00",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "Vandensv"
-          },
-          {
-            "lane": 6,
-            "value": "Vandensv"
-          },
-          {
-            "lane": 7,
-            "value": "Vandensv"
-          },
-          {
-            "lane": 8,
-            "value": "Vandensv"
-          }
-        ]
-      },
-      {
-        "time": "21:00-21:45",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "Vandensv"
-          },
-          {
-            "lane": 6,
-            "value": "Vandensv"
-          },
-          {
-            "lane": 7,
-            "value": "Vandensv"
-          },
-          {
-            "lane": 8,
-            "value": "Vandensv"
-          }
-        ]
-      }
-    ],
-    "TreÄiadienis": [
-      {
-        "time": "6:00-6:45",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "Povilas Å P"
-          },
-          {
-            "lane": 6,
-            "value": "BTT"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "KLIENTAI"
-          }
-        ]
-      },
-      {
-        "time": "6:45-7:30",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "Povilas Å P"
-          },
-          {
-            "lane": 6,
-            "value": "BTT"
-          },
-          {
-            "lane": 7,
-            "value": "SSC FAG S"
-          },
-          {
-            "lane": 8,
-            "value": "SSC FAG S"
-          }
-        ]
-      },
-      {
-        "time": "7:30-8:15",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "BTT"
-          },
-          {
-            "lane": 7,
-            "value": "SSC FAG S"
-          },
-          {
-            "lane": 8,
-            "value": "SSC FAG S"
-          }
-        ]
-      },
-      {
-        "time": "8:15-9:00",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "SSC FAG S"
-          },
-          {
-            "lane": 8,
-            "value": "SSC FAG S"
-          }
-        ]
-      },
-      {
-        "time": "9:00-9:45",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "DAILUSIS"
-          }
-        ]
-      },
-      {
-        "time": "9:45-10:30",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "DAILUSIS"
-          }
-        ]
-      },
-      {
-        "time": "10:30-11:15",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "DAILUSIS"
-          }
-        ]
-      },
-      {
-        "time": "11:15-12:00",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "Liza BR"
-          },
-          {
-            "lane": 8,
-            "value": "Liza BR"
-          }
-        ]
-      },
-      {
-        "time": "12:00-12:45",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "BTT"
-          },
-          {
-            "lane": 7,
-            "value": "Liza BR"
-          },
-          {
-            "lane": 8,
-            "value": "Liza BR"
-          }
-        ]
-      },
-      {
-        "time": "12:45-13:30",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "BTT"
-          },
-          {
-            "lane": 7,
-            "value": "Liza BR"
-          },
-          {
-            "lane": 8,
-            "value": "Liza BR"
-          }
-        ]
-      },
-      {
-        "time": "13:30-14:15",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "Liza BR"
-          },
-          {
-            "lane": 8,
-            "value": "Liza BR"
-          }
-        ]
-      },
-      {
-        "time": "14:15-15:00",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "SSC FAG V"
-          }
-        ]
-      },
-      {
-        "time": "15:00-15:45",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 6,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 7,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 8,
-            "value": "SSC FAG V"
-          }
-        ]
-      },
-      {
-        "time": "15:45-16:30",
-        "lanes": [
-          {
-            "lane": 1,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 2,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 3,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 4,
-            "value": "KLIENTAI"
-          },
-          {
-            "lane": 5,
-            "value": "GraÅ¾ina SR-C"
+            "value": "Gražina SR-C"
           },
           {
             "lane": 6,
@@ -2099,6 +541,415 @@
           },
           {
             "lane": 5,
+            "value": "Gražina BR"
+          },
+          {
+            "lane": 6,
+            "value": "Anastasija SR"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "17:15-18:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "Povilas ŠP"
+          },
+          {
+            "lane": 5,
+            "value": "Gražina BR"
+          },
+          {
+            "lane": 6,
+            "value": "Anastasija SR"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:00-18:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Povilas ŠP"
+          },
+          {
+            "lane": 6,
+            "value": "Valia pp"
+          },
+          {
+            "lane": 7,
+            "value": "Tadas"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:45-19:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 7,
+            "value": "Valia pp"
+          },
+          {
+            "lane": 8,
+            "value": "Tadas"
+          }
+        ]
+      },
+      {
+        "time": "19:30-20:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 6,
+            "value": "Valia pp"
+          },
+          {
+            "lane": 7,
+            "value": "Tadas"
+          },
+          {
+            "lane": 8,
+            "value": "Tadas"
+          }
+        ]
+      },
+      {
+        "time": "20:15-21:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      },
+      {
+        "time": "21:00-21:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      }
+    ],
+    "Antradienis": [
+      {
+        "time": "6:00-6:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "6:45-7:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "7:30-8:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "8:15-9:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:00-9:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
             "value": "KLIENTAI"
           },
           {
@@ -2108,6 +959,376 @@
           {
             "lane": 7,
             "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:45-10:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "10:30-11:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "11:15-12:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:00-12:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:45-13:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "13:30-14:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "14:15-15:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "15:00-15:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "Anastasija SR"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "15:45-16:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR-B"
+          },
+          {
+            "lane": 6,
+            "value": "Anastasija SR"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "16:30-17:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "DELFINAS"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR-B"
+          },
+          {
+            "lane": 6,
+            "value": "Anastasija SR"
+          },
+          {
+            "lane": 7,
+            "value": "Liza BR"
           },
           {
             "lane": 8,
@@ -2136,7 +1357,786 @@
           },
           {
             "lane": 5,
-            "value": "GraÅ¾ina BR"
+            "value": "Oksana SR-B"
+          },
+          {
+            "lane": 6,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 7,
+            "value": "Liza BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:00-18:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 5,
+            "value": "Oksana SR-A"
+          },
+          {
+            "lane": 6,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 7,
+            "value": "Liza pp"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "18:45-19:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "Liza pp"
+          },
+          {
+            "lane": 8,
+            "value": "Tadas"
+          }
+        ]
+      },
+      {
+        "time": "19:30-20:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "BTT"
+          },
+          {
+            "lane": 6,
+            "value": "Liza pp"
+          },
+          {
+            "lane": 7,
+            "value": "Tadas"
+          },
+          {
+            "lane": 8,
+            "value": "Tadas"
+          }
+        ]
+      },
+      {
+        "time": "20:15-21:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      },
+      {
+        "time": "21:00-21:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 6,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 7,
+            "value": "Vandensv"
+          },
+          {
+            "lane": 8,
+            "value": "Vandensv"
+          }
+        ]
+      }
+    ],
+    "Trečiadienis": [
+      {
+        "time": "6:00-6:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Povilas ŠP"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "6:45-7:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Povilas ŠP"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "7:30-8:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG S"
+          }
+        ]
+      },
+      {
+        "time": "8:15-9:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 7,
+            "value": "SSC FAG S"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:00-9:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "9:45-10:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "10:30-11:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "11:15-12:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:00-12:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "12:45-13:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "ANTROKAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "BTT"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "ANTROKAI"
+          }
+        ]
+      },
+      {
+        "time": "13:30-14:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 7,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 8,
+            "value": "KLIENTAI"
+          }
+        ]
+      },
+      {
+        "time": "14:15-15:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 6,
+            "value": "Gražina BR"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "15:00-15:45",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Gražina SR-C"
+          },
+          {
+            "lane": 6,
+            "value": "Anastasija SR"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "15:45-16:30",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 5,
+            "value": "Gražina SR-C"
+          },
+          {
+            "lane": 6,
+            "value": "Anastasija SR"
+          },
+          {
+            "lane": 7,
+            "value": "Valia BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "16:30-17:15",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "DELFINAS"
+          },
+          {
+            "lane": 5,
+            "value": "Gražina BR"
+          },
+          {
+            "lane": 6,
+            "value": "Anastasija SR"
+          },
+          {
+            "lane": 7,
+            "value": "Liza BR"
+          },
+          {
+            "lane": 8,
+            "value": "SSC FAG V"
+          }
+        ]
+      },
+      {
+        "time": "17:15-18:00",
+        "lanes": [
+          {
+            "lane": 1,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 2,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 3,
+            "value": "KLIENTAI"
+          },
+          {
+            "lane": 4,
+            "value": "NEMUNAS"
+          },
+          {
+            "lane": 5,
+            "value": "Gražina BR"
           },
           {
             "lane": 6,
@@ -2173,15 +2173,15 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Gražina BR"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Valia pp"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza pp"
           },
           {
             "lane": 8,
@@ -2214,11 +2214,11 @@
           },
           {
             "lane": 6,
-            "value": "DAILUSIS"
+            "value": "Valia pp"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza pp"
           },
           {
             "lane": 8,
@@ -2247,11 +2247,11 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Valia pp"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Liza pp"
           },
           {
             "lane": 7,
@@ -2360,7 +2360,7 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Oksana SR"
           },
           {
             "lane": 6,
@@ -2397,7 +2397,7 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Oksana SR"
           },
           {
             "lane": 6,
@@ -2455,7 +2455,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -2471,7 +2471,7 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "SSC FAG S"
           },
           {
             "lane": 6,
@@ -2483,7 +2483,7 @@
           },
           {
             "lane": 8,
-            "value": "SSC FAG S"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -2492,7 +2492,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -2520,7 +2520,7 @@
           },
           {
             "lane": 8,
-            "value": "DAILUSIS"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -2529,7 +2529,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -2557,7 +2557,7 @@
           },
           {
             "lane": 8,
-            "value": "DAILUSIS"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -2566,7 +2566,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -2594,7 +2594,7 @@
           },
           {
             "lane": 8,
-            "value": "DAILUSIS"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -2603,7 +2603,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -2631,7 +2631,7 @@
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -2640,7 +2640,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -2668,7 +2668,7 @@
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -2677,7 +2677,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -2705,7 +2705,7 @@
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -2771,11 +2771,11 @@
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Gražina BR-1"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Valia BR"
           },
           {
             "lane": 8,
@@ -2804,15 +2804,15 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Gražina BR-1"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Valia BR"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Valia BR"
           },
           {
             "lane": 8,
@@ -2841,15 +2841,15 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Oksana SR-B"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Gražina SR-C"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Valia BR"
           },
           {
             "lane": 8,
@@ -2878,15 +2878,15 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Oksana SR-B"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Gražina SR-C"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Valia BR"
           },
           {
             "lane": 8,
@@ -2915,15 +2915,15 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Oksana SR-B"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Gražina SR-C"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Valia BR"
           },
           {
             "lane": 8,
@@ -2952,15 +2952,15 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Oksana SR-A"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Valia BR"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Valia BR"
           },
           {
             "lane": 8,
@@ -2993,15 +2993,15 @@
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "DELFINAS"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Valia pp"
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "Valia pp"
           }
         ]
       },
@@ -3139,7 +3139,7 @@
           },
           {
             "lane": 5,
-            "value": "Povilas Å P"
+            "value": "Povilas ŠP"
           },
           {
             "lane": 6,
@@ -3172,7 +3172,7 @@
           },
           {
             "lane": 4,
-            "value": "Povilas Å P"
+            "value": "Povilas ŠP"
           },
           {
             "lane": 5,
@@ -3234,7 +3234,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -3250,7 +3250,7 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "SSC FAG S"
           },
           {
             "lane": 6,
@@ -3262,7 +3262,7 @@
           },
           {
             "lane": 8,
-            "value": "SSC FAG S"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -3271,7 +3271,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -3299,7 +3299,7 @@
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -3308,7 +3308,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -3336,7 +3336,7 @@
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -3345,7 +3345,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -3373,7 +3373,7 @@
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -3382,7 +3382,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -3406,11 +3406,11 @@
           },
           {
             "lane": 7,
-            "value": "Liza BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "Liza BR"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -3419,7 +3419,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -3443,11 +3443,11 @@
           },
           {
             "lane": 7,
-            "value": "Liza BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "Liza BR"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -3456,7 +3456,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "KLIENTAI"
+            "value": "ANTROKAI"
           },
           {
             "lane": 2,
@@ -3480,11 +3480,11 @@
           },
           {
             "lane": 7,
-            "value": "Liza BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 8,
-            "value": "Liza BR"
+            "value": "ANTROKAI"
           }
         ]
       },
@@ -3509,19 +3509,19 @@
           },
           {
             "lane": 5,
-            "value": "Liza BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 6,
-            "value": "Liza BR"
+            "value": "KLIENTAI"
           },
           {
             "lane": 7,
-            "value": "TREÄŒIOKAI"
+            "value": "TREČIOKAI"
           },
           {
             "lane": 8,
-            "value": "TREÄŒIOKAI"
+            "value": "TREČIOKAI"
           }
         ]
       },
@@ -3550,7 +3550,7 @@
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Gražina BR"
           },
           {
             "lane": 7,
@@ -3583,11 +3583,11 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Gražina SR-C"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Oksana SR-B"
           },
           {
             "lane": 7,
@@ -3620,15 +3620,15 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Gražina SR-C"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Oksana SR-B"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
@@ -3657,15 +3657,15 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Gražina BR"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Oksana SR-A"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza BR"
           },
           {
             "lane": 8,
@@ -3694,15 +3694,15 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Gražina BR"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Oksana SR-A"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza pp"
           },
           {
             "lane": 8,
@@ -3731,15 +3731,15 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Gražina BR"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Oksana SR-A"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza pp"
           },
           {
             "lane": 8,
@@ -3776,11 +3776,11 @@
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Liza pp"
           },
           {
             "lane": 8,
-            "value": "Tadas"
+            "value": "Vandensv"
           }
         ]
       },
@@ -3813,11 +3813,11 @@
           },
           {
             "lane": 7,
-            "value": "Tadas"
+            "value": "Vandensv"
           },
           {
             "lane": 8,
-            "value": "Tadas"
+            "value": "Vandensv"
           }
         ]
       },
@@ -3896,7 +3896,7 @@
         ]
       }
     ],
-    "Å eÅ¡tadienis": [
+    "Šeštadienis": [
       {
         "time": "6:00-6:45",
         "lanes": [
@@ -5125,7 +5125,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "MOKU PL."
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -5162,7 +5162,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "MOKU PL."
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -5199,7 +5199,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "MOKU PL."
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
@@ -5236,7 +5236,7 @@
         "lanes": [
           {
             "lane": 1,
-            "value": "MOKU PL."
+            "value": "KLIENTAI"
           },
           {
             "lane": 2,
