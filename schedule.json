@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10 16:05",
+  "updated": "2026-11-16 12:44",
   "schedule": {
     "Pirmadienis": [
       {
@@ -2989,7 +2989,7 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "BTT"
           },
           {
             "lane": 6,
@@ -3805,11 +3805,11 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Vandensv"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Vandensv"
           },
           {
             "lane": 7,
@@ -4033,7 +4033,7 @@
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "BTT"
           },
           {
             "lane": 7,
@@ -4041,7 +4041,7 @@
           },
           {
             "lane": 8,
-            "value": "BTT"
+            "value": "KLIENTAI"
           }
         ]
       },
@@ -4325,19 +4325,19 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Vandensvydis"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Vandensvydis"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Vandensvydis"
           },
           {
             "lane": 8,
-            "value": "DELFINAS"
+            "value": "Vandensvydis"
           }
         ]
       },
@@ -4362,19 +4362,19 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Vandensvydis"
           },
           {
             "lane": 6,
-            "value": "DELFINAS"
+            "value": "Vandensvydis"
           },
           {
             "lane": 7,
-            "value": "DELFINAS"
+            "value": "Vandensvydis"
           },
           {
             "lane": 8,
-            "value": "DELFINAS"
+            "value": "Vandensvydis"
           }
         ]
       },
@@ -4473,19 +4473,19 @@
           },
           {
             "lane": 5,
-            "value": "KLIENTAI"
+            "value": "Vandensvydis"
           },
           {
             "lane": 6,
-            "value": "KLIENTAI"
+            "value": "Vandensvydis"
           },
           {
             "lane": 7,
-            "value": "KLIENTAI"
+            "value": "Vandensvydis"
           },
           {
             "lane": 8,
-            "value": "KLIENTAI"
+            "value": "Vandensvydis"
           }
         ]
       },
